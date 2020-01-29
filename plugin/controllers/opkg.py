@@ -25,10 +25,10 @@ PACKAGES = '/var/lib/opkg/lists'
 INSTALLEDPACKAGES = '/var/lib/opkg/status'
 
 
-class IpkgController(BaseController):
+class OpkgController(BaseController):
 	def __init__(self, session, path=""):
 		BaseController.__init__(self, path=path, session=session)
-		self.putChild('upload', IPKGUpload(self.session))
+		self.putChild('upload', OPKGUpload(self.session))
 
 	def render(self, request):
 		action = ''
@@ -188,7 +188,7 @@ class IpkgController(BaseController):
 		return server.NOT_DONE_YET
 
 	def CallOPKG(self, request, action, parms=[]):
-		cmd = ["/usr/bin/opkg", "ipkg", action] + parms
+		cmd = ["/usr/bin/opkg", "opkg", action] + parms
 		request.setResponseCode(http.OK)
 		self.ResultString = ''
 		if hasattr(self.request, 'notifyFinish'):
@@ -260,7 +260,7 @@ class IpkgController(BaseController):
 		return server.NOT_DONE_YET
 
 
-class IPKGUpload(resource.Resource):
+class OPKGUpload(resource.Resource):
 	def __init__(self, session):
 		resource.Resource.__init__(self)
 		self.session = session

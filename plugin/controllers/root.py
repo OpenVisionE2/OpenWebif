@@ -30,7 +30,7 @@ from base import BaseController
 from web import WebController, ApiController
 from ajax import AjaxController
 from mobile import MobileController
-from ipkg import IpkgController
+from opkg import OpkgController
 from AT import ATController
 from SR import SRController
 from ER import ERController
@@ -64,7 +64,7 @@ class RootController(BaseController):
 
 		if os.path.exists('/usr/bin/shellinaboxd'):
 			self.putChild("terminal", proxy.ReverseProxyResource('::1', 4200, '/'))
-		self.putGZChild("ipkg", IpkgController(session))
+		self.putGZChild("opkg", OpkgController(session))
 		self.putChild("autotimer", ATController(session))
 		self.putChild("serienrecorder", SRController(session))
 		self.putChild("epgrefresh", ERController(session))
