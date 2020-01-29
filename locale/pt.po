@@ -647,7 +647,7 @@ msgstr "Erro"
 msgid "Error parsing vps.xml"
 msgstr "Erro de análise vps.xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Erro no upload de Ficheiro"
 
@@ -660,7 +660,7 @@ msgstr "Erro ao preparar o ficheiro de backup, %s não existe."
 msgid "Error while preparing backup file."
 msgstr "Erro ao preparar o ficheiro de backup."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Erro ao escrever Ficheiro"
 
@@ -2465,7 +2465,7 @@ msgstr "via"
 msgid "waiting"
 msgstr "em espera"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "tipo de ficheiro errado"
 

@@ -646,7 +646,7 @@ msgstr "Błąd"
 msgid "Error parsing vps.xml"
 msgstr "Błąd analizy składniowej vps.xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Błąd przesyłania pliku"
 
@@ -659,7 +659,7 @@ msgstr "Błąd podczas przygotowania pliku kopii zapadowej, %s nie istnieje."
 msgid "Error while preparing backup file."
 msgstr "Błąd podczas przygotowania pliku kopii zapadowej."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Błąd zapisu pliku"
 
@@ -2463,7 +2463,7 @@ msgstr "przez"
 msgid "waiting"
 msgstr "oczekiwanie"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "niewłaściwy typ pliku"
 

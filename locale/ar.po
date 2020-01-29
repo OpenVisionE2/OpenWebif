@@ -645,7 +645,7 @@ msgstr "خطأ"
 msgid "Error parsing vps.xml"
 msgstr "خطا في تحليل الvps. xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "خطا في رفع الملف"
 
@@ -658,7 +658,7 @@ msgstr "خطا اثناء تحضير ملف النسخ الاحتياطي ، %s 
 msgid "Error while preparing backup file."
 msgstr "خطا اثناء تحضير ملف النسخ الاحتياطي."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "خطاء في كتابة الملف"
 
@@ -2449,7 +2449,7 @@ msgstr "بواسطة"
 msgid "waiting"
 msgstr "فى الانتظار"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "نوع الملف خطاء"
 

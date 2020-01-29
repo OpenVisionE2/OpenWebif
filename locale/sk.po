@@ -645,7 +645,7 @@ msgstr "Chyba"
 msgid "Error parsing vps.xml"
 msgstr "Chyba pri analýze vps.xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Chyba pri odovzdávaní súboru"
 
@@ -658,7 +658,7 @@ msgstr "Chyba pri príprave záložného súboru, %s neexistuje."
 msgid "Error while preparing backup file."
 msgstr "Chyba pri príprave záložného súboru."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Chyba pri zápise súboru"
 
@@ -2462,7 +2462,7 @@ msgstr "cez"
 msgid "waiting"
 msgstr "čakám"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "nesprávny typ súboru"
 

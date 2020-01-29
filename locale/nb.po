@@ -645,7 +645,7 @@ msgstr "Feil"
 msgid "Error parsing vps.xml"
 msgstr "Feil ved tolking av vps.xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Feil ved fil opplasting"
 
@@ -658,7 +658,7 @@ msgstr "Feil under sikkerhetskopiering, %s eksisterer ikke."
 msgid "Error while preparing backup file."
 msgstr "Feil under sikkerhetskopiering."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Feil ved filopprettelse"
 
@@ -2447,7 +2447,7 @@ msgstr "via"
 msgid "waiting"
 msgstr "venter"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "feil filtype"
 

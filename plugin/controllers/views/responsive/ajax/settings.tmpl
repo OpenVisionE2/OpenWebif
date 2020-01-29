@@ -190,7 +190,7 @@ function prepareUpload() {
 				{
 					var formData = new FormData(this);
 					$.ajax({
-						url: '/ipkg/upload',
+						url: '/opkg/upload',
 						type: 'POST',
 						data: formData,
 						mimeType:"multipart/form-data",
@@ -308,7 +308,7 @@ function ask(obj,man)
 			closeOnCancel: true
 		}, function (isConfirm) {
 			if (isConfirm) {
-				Action('/ipkg?command='+cmd,'true');
+				Action('/opkg?command='+cmd,'true');
 				$("#tblpackages").hide();
 				$("#pkgmore").show();
 				$('#pkgbtn4').prop('checked', true); 
@@ -346,7 +346,7 @@ function ShowPackages(mode)
 		$("#pkgmore").show();
 		$('#tmpfiles').empty();
 		$.ajax({
-			url: '/ipkg?command=tmp',
+			url: '/opkg?command=tmp',
 			dataType: 'json',
 			success: function (data) {
 				var files = '';
@@ -385,7 +385,7 @@ function ShowPackages(mode)
 	}
 
 	$.ajax({
-		url: '/ipkg?command=listall',
+		url: '/opkg?command=listall',
 		dataType: 'json',
 		success: function ( data ) {
 			var sdata = JSON.stringify(data);
@@ -432,9 +432,9 @@ $(function() {
 	$('#selectfile').click(function () {$("#rfile").trigger('click'); });
 	$('#rfile').change(prepareUpload);
 	$('#updatefeed').click(function () {
-		Action('/ipkg?command=update',true); });
+		Action('/opkg?command=update',true); });
 	$('#upgrade').click(function () {
-		Action('/ipkg?command=upgrade','true'); });
+		Action('/opkg?command=upgrade','true'); });
 	
 	$('#searchpk').focus(function () { 
 		if ($(this).val() === '...') {

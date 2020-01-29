@@ -644,7 +644,7 @@ msgstr "Hiba"
 msgid "Error parsing vps.xml"
 msgstr "Hiba történt a vps.xml elemzésében"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Hiba történt a fájl feltöltése közben"
 
@@ -657,7 +657,7 @@ msgstr "Hiba történt a mentési fájl előkészítésénél, %s nem létezik."
 msgid "Error while preparing backup file."
 msgstr "Hiba történt a mentési fájl előkészítésénél."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Hiba történt a fájl írása közben"
 
@@ -2449,7 +2449,7 @@ msgstr "által"
 msgid "waiting"
 msgstr "várakozás"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "rossz fájltípus"
 

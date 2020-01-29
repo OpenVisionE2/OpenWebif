@@ -651,7 +651,7 @@ msgstr "Hata"
 msgid "Error parsing vps.xml"
 msgstr "Vps.xml ayrıştırılırken hata oluştu"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Dosya yüklenirken hata oluştu"
 
@@ -664,7 +664,7 @@ msgstr "Yedekleme dosyası hazırlanırken hata oluştu, %s mevcut değil."
 msgid "Error while preparing backup file."
 msgstr "Yedekleme dosyası hazırlanırken hata oluştu."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Dosya yazılırken hata oluştu"
 
@@ -2467,7 +2467,7 @@ msgstr "üzerinden"
 msgid "waiting"
 msgstr "bekleniyor"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "hatalı dosya türü"
 

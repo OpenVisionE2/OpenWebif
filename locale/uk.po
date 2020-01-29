@@ -648,7 +648,7 @@ msgstr "Помилка"
 msgid "Error parsing vps.xml"
 msgstr "Помилка зчитування vps.xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Помилка завантаження файла"
 
@@ -661,7 +661,7 @@ msgstr "Помилка під час підготовки файлу резев�
 msgid "Error while preparing backup file."
 msgstr "Помилка під час підготовки файлу резервної копії."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Помилка запису файла"
 
@@ -2453,7 +2453,7 @@ msgstr "через"
 msgid "waiting"
 msgstr "чекайте"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "невірний тип файлу"
 

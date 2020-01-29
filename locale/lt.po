@@ -646,7 +646,7 @@ msgstr "Klaida"
 msgid "Error parsing vps.xml"
 msgstr "Klaida, apdorojant vps.xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Failo įkėlimo klaida"
 
@@ -659,7 +659,7 @@ msgstr "Klaida ruošiant atsarginės kopijos failą, %s nėra."
 msgid "Error while preparing backup file."
 msgstr "Klaida ruošiant atsarginės kopijos failą."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Failo įrašymo klaida"
 
@@ -2464,7 +2464,7 @@ msgstr "per"
 msgid "waiting"
 msgstr "laukiama"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "netinkamas failo tipas"
 

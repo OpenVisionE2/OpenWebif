@@ -645,7 +645,7 @@ msgstr "Σφάλμα"
 msgid "Error parsing vps.xml"
 msgstr "Σφάλμα ανάλυσης του vps.xml"
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr "Σφάλμα ανεβάσματος Αρχείου"
 
@@ -658,7 +658,7 @@ msgstr "Σφάλμα κατά την προετοιμασία του αντίγ�
 msgid "Error while preparing backup file."
 msgstr "Σφάλμα κατά την προετοιμασία του αντιγράφου ασφαλείας."
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr "Σφάλμα εγγραφής Αρχείου"
 
@@ -2452,7 +2452,7 @@ msgstr "μέσω"
 msgid "waiting"
 msgstr "αναμονή"
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr "λανθασμένος τύπος αρχείου"
 
