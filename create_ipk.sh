@@ -1,8 +1,8 @@
 #!/bin/bash
 
 D=$(pushd $(dirname $0) &> /dev/null; pwd; popd &> /dev/null)
-P=${D}/ipkg.tmp.$$
-B=${D}/ipkg.build.$$
+P=${D}/opkg.tmp.$$
+B=${D}/opkg.build.$$
 
 pushd ${D} &> /dev/null
 VER=$(head -n 1 CHANGES.md | grep -i '## Version' | sed 's/^## Version \([[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+\)/\1/')

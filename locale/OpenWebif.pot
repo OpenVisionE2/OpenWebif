@@ -643,7 +643,7 @@ msgstr ""
 msgid "Error parsing vps.xml"
 msgstr ""
 
-#: ../plugin/controllers/ipkg.py:281
+#: ../plugin/controllers/opkg.py:281
 msgid "Error upload File"
 msgstr ""
 
@@ -656,7 +656,7 @@ msgstr ""
 msgid "Error while preparing backup file."
 msgstr ""
 
-#: ../plugin/controllers/ipkg.py:297
+#: ../plugin/controllers/opkg.py:297
 msgid "Error writing File"
 msgstr ""
 
@@ -2431,7 +2431,7 @@ msgstr ""
 msgid "waiting"
 msgstr ""
 
-#: ../plugin/controllers/ipkg.py:284
+#: ../plugin/controllers/opkg.py:284
 msgid "wrong filetype"
 msgstr ""
 

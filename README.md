@@ -60,7 +60,7 @@ The following additional packages need to be installed:
     python-compression
     python-ipaddress
 
-_(Dependencies should be handled by using ipkg/opkg packages)_
+_(Dependencies should be handled by using opkg packages)_
 
 ### Compiling JavaScript Files
 

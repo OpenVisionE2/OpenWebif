@@ -190,7 +190,7 @@ Thanks to MDXDave for some ideas to improve the UI
 
 ## Version 0.4.2
 **FEATURES**
-* ipkg add full package list api
+* opkg add full package list api
 * full add full movie list api
 
 **FIXES**
@@ -332,7 +332,7 @@ Thanks to MDXDave for some ideas to improve the UI
 ## Version 0.1.3
 **FEATURES**
 * Stream Port Settings
-* IPKG Interface
+* OPKG Interface
 * german "umlaute" in epgsearch
 
 **FIXES**
