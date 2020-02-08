@@ -196,8 +196,6 @@ def getAllInfo():
 		remote = "anadol3"
 	elif model == "iziboxx3":
 		remote = "izibox1"
-	elif model == "iziboxecohd":
-		remote = "izibox2"
 	elif model in ("arivatwin","arivacombo"):
 		remote = "ariva"
 	elif model == "odroidc2":
