@@ -198,12 +198,8 @@ def getAllInfo():
 		remote = "izibox1"
 	elif model == "iziboxecohd":
 		remote = "izibox2"
-	elif model == "jdhdduo":
-		remote = "jd1"
 	elif model in ("arivatwin","arivacombo"):
 		remote = "ariva"
-	elif model == "turing":
-		remote = "turing"
 	elif model == "odroidc2":
 		remote = "hardkernel"
 	elif model == "cube":
