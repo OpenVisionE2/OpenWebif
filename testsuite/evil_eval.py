@@ -1,4 +1,6 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
+from __future__ import print_function
 #!/usr/bin/env python
 """
 Unit Test for Code Trying to Mitigate a Remote Code Execution Vulnerability

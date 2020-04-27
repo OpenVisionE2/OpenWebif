@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from Tools.Directories import fileExists, resolveFilename, SCOPE_PLAYLIST
