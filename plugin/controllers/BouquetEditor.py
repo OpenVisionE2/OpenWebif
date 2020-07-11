@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from __future__ import print_function
+from __future__ import division, print_function
 
 # LICENCE
 #
@@ -636,7 +636,7 @@ class BouquetEditor(Source):
 				for bouquetfiles in files:
 					if path.exists(bouquetfiles):
 						remove(bouquetfiles)
-				lines = popen('tar xvf %s -C / --exclude tmp/.webouquetedit' % backupFilename).readlines()  # nosec
+				lines = popen('tar xvf %s -C // --exclude tmp/.webouquetedit' % backupFilename).readlines()  # nosec
 				nimmanager.readTransponders()
 				eDVBDB.getInstance().reloadServicelist()
 				eDVBDB.getInstance().reloadBouquets()

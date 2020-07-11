@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from __future__ import division
 
 from Tools.ISO639 import LanguageCodes
 
@@ -16,7 +17,7 @@ def getAudioTracks(session):
 			language = ""
 			for lang in languages:
 				if len(language) > 0:
-					language += " / "
+					language += " // "
 
 				if lang in LanguageCodes:
 					language += LanguageCodes[lang][0]
