@@ -235,7 +235,7 @@ def getInfo(session=None, need_fullinfo=False):
 		elif key in ("MemFree", "Buffers", "Cached"):
 			memFree += int(parts[1].strip().split(' ', 1)[0])
 	info['mem2'] = "%s %s" % (memFree, _("kB"))
-	info['mem3'] = _("%s free // %s total") % (info['mem2'], info['mem1'])
+	info['mem3'] = _("%s free / %s total") % (info['mem2'], info['mem1'])
 
 	info['uptime'] = about.getBoxUptime()
 

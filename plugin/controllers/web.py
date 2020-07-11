@@ -121,7 +121,7 @@ class WebController(BaseController):
 
 			Not available in *Enigma2 WebInterface API*.
 
-		*TODO: improve after action // save , save+record , nothing
+		*TODO: improve after action / save , save+record , nothing
 		config.timeshift.favoriteSaveAction ....*
 
 		Args:

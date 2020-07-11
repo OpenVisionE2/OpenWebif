@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from __future__ import division, print_function
+from __future__ import print_function
 
 ##########################################################################
 # OpenWebif: timers
@@ -232,7 +232,7 @@ def addTimer(session, serviceref, begin, end, name, description, disabled, justp
 
 			return {
 				"result": False,
-				"message": _("Conflicting Timer(s) detected! %s") % " // ".join(errors),
+				"message": _("Conflicting Timer(s) detected! %s") % " / ".join(errors),
 				"conflicts": conflictinfo
 			}
 		# VPS
