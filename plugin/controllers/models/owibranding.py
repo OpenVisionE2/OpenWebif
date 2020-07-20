@@ -60,7 +60,7 @@ def getAllInfo():
 		remote = "vu3"
 	elif model in ("vuuno4kse","vuzero4k","vuduo4k"):
 		remote = "vu4"
-	elif procmodel == "axase3":
+	elif model == "axase3":
 		remote = "e3hd"
 	elif model == "et9x00" and not procmodel == "et9500":
 		remote = "et9x00"
