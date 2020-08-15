@@ -25,7 +25,7 @@ from __future__ import print_function
 import enigma
 from Screens.MessageBox import MessageBox
 from Components.config import config
-from Tools.Directories import fileExists
+from Tools.Directories import fileExists, pathExists
 from twisted import version
 from twisted.internet import reactor, ssl
 from twisted.web import server, http, resource
@@ -97,7 +97,7 @@ def verifyCallback(connection, x509, errnum, errdepth, ok):
 def buildRootTree(session):
 	root = RootController(session)
 	origwebifpath = enigma.eEnv.resolve('${libdir}/enigma2/python/Plugins/Extensions/WebInterface')
-	if fileExists(origwebifpath):
+	if pathExists(origwebifpath):
 		os.remove(origwebifpath)
 	return root
 
