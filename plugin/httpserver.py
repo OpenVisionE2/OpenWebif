@@ -94,84 +94,11 @@ def verifyCallback(connection, x509, errnum, errdepth, ok):
 	return True
 
 
-def isOriginalWebifInstalled():
-	pluginpath = enigma.eEnv.resolve('${libdir}/enigma2/python/Plugins/Extensions/WebInterface/plugin.py')
-	if fileExists(pluginpath) or fileExists(pluginpath + "o") or fileExists(pluginpath + "c"):
-		return True
-
-	return False
-
-
 def buildRootTree(session):
 	root = RootController(session)
-
-	if not isOriginalWebifInstalled():
-		# this is an hack! any better idea?
-		origwebifpath = enigma.eEnv.resolve('${libdir}/enigma2/python/Plugins/Extensions/WebInterface')
-		hookpath = enigma.eEnv.resolve('${libdir}/enigma2/python/Plugins/Extensions/OpenWebif/pluginshook.src')
-		if not os.path.islink(origwebifpath + "/WebChilds/Toplevel.py"):
-			print("[OpenWebif] hooking original webif plugins")
-
-			cleanuplist = [
-				"/__init__.py",
-				"/__init__.pyo",
-				"/__init__.pyc",
-				"/WebChilds/__init__.py",
-				"/WebChilds/__init__.pyo",
-				"/WebChilds/__init__.pyc",
-				"/WebChilds/External/__init__.py",
-				"/WebChilds/External/__init__.pyo",
-				"/WebChilds/External/__init__.pyc",
-				"/WebChilds/Toplevel.py",
-				"/WebChilds/Toplevel.pyo"
-				"/WebChilds/Toplevel.pyc"
-			]
-
-			for cleanupfile in cleanuplist:
-				if fileExists(origwebifpath + cleanupfile):
-					os.remove(origwebifpath + cleanupfile)
-
-			if not os.path.exists(origwebifpath + "/WebChilds/External"):
-				os.makedirs(origwebifpath + "/WebChilds/External")
-			open(origwebifpath + "/__init__.py", "w").close()
-			open(origwebifpath + "/WebChilds/__init__.py", "w").close()
-			open(origwebifpath + "/WebChilds/External/__init__.py", "w").close()
-
-			os.symlink(hookpath, origwebifpath + "/WebChilds/Toplevel.py")
-
-		# import modules
-		# print("[OpenWebif] loading external plugins...")
-		from Plugins.Extensions.WebInterface.WebChilds.Toplevel import loaded_plugins
-		if len(loaded_plugins) == 0:
-			externals = os.listdir(origwebifpath + "/WebChilds/External")
-			loaded = []
-			for external in externals:
-				if external[-3:] == ".py":
-					modulename = external[:-3]
-				elif external[-4:] == ".pyo" or external[-4:] == ".pyc":
-					modulename = external[:-4]
-				else:
-					continue
-
-				if modulename == "__init__":
-					continue
-
-				if modulename in loaded:
-					continue
-
-				loaded.append(modulename)
-				try:
-					imp.load_source(modulename, origwebifpath + "/WebChilds/External/" + modulename + ".py")
-				except Exception as e:
-					# maybe there's only the compiled version
-					imp.load_compiled(modulename, origwebifpath + "/WebChilds/External/" + external)
-
-		if len(loaded_plugins) > 0:
-			for plugin in loaded_plugins:
-				root.putChild2(plugin[0], plugin[1])
-				# print("[OpenWebif] plugin '%s' loaded on path '/%s'" % (plugin[2], plugin[0]))
-		else:
-			print("[OpenWebif] no plugins to load")
+	origwebifpath = enigma.eEnv.resolve('${libdir}/enigma2/python/Plugins/Extensions/WebInterface')
+	if fileExists(origwebifpath):
+		os.remove(origwebifpath)
 	return root
 
 

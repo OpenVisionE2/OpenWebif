@@ -2062,15 +2062,9 @@ class WebController(BaseController):
 		Returns:
 			HTTP response with headers
 		"""
-		try:
-			from Plugins.Extensions.WebInterface.WebChilds.Toplevel import loaded_plugins
-			return {
-				"plugins": loaded_plugins
-			}
-		except Exception:
-			return {
-				"plugins": []
-			}
+		return {
+			"plugins": []
+		}
 
 	def P_settings(self, request):
 		"""
