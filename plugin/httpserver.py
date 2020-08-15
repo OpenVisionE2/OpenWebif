@@ -96,9 +96,45 @@ def verifyCallback(connection, x509, errnum, errdepth, ok):
 
 def buildRootTree(session):
 	root = RootController(session)
+
 	origwebifpath = enigma.eEnv.resolve('${libdir}/enigma2/python/Plugins/Extensions/WebInterface')
 	if pathExists(origwebifpath):
 		os.remove(origwebifpath)
+
+	# import modules
+	# print("[OpenWebif] loading external plugins...")
+	from Plugins.Extensions.OpenWebif.WebChilds.Toplevel import loaded_plugins
+	openwebifpath = enigma.eEnv.resolve('${libdir}/enigma2/python/Plugins/Extensions/OpenWebif')
+	if len(loaded_plugins) == 0:
+		externals = os.listdir(openwebifpath + "/WebChilds/External")
+		loaded = []
+		for external in externals:
+			if external[-3:] == ".py":
+				modulename = external[:-3]
+			elif external[-4:] == ".pyo":
+				modulename = external[:-4]
+			else:
+				continue
+
+			if modulename == "__init__":
+				continue
+
+			if modulename in loaded:
+				continue
+
+			loaded.append(modulename)
+			try:
+				imp.load_source(modulename, openwebifpath + "/WebChilds/External/" + modulename + ".py")
+			except Exception as e:
+				# maybe there's only the compiled version
+				imp.load_compiled(modulename, openwebifpath + "/WebChilds/External/" + external)
+
+	if len(loaded_plugins) > 0:
+		for plugin in loaded_plugins:
+			root.putChild2(plugin[0], plugin[1])
+			# print("[OpenWebif] plugin '%s' loaded on path '/%s'" % (plugin[2], plugin[0]))
+	else:
+		print("[OpenWebif] no plugins to load")
 	return root
 
 

@@ -2062,9 +2062,15 @@ class WebController(BaseController):
 		Returns:
 			HTTP response with headers
 		"""
-		return {
-			"plugins": []
-		}
+		try:
+			from Plugins.Extensions.OpenWebif.WebChilds.Toplevel import loaded_plugins
+			return {
+				"plugins": loaded_plugins
+			}
+		except Exception:
+			return {
+				"plugins": []
+			}
 
 	def P_settings(self, request):
 		"""

@@ -329,6 +329,19 @@ class BaseController(resource.Resource):
 		except ImportError as e:
 			pass
 
+		try:
+			# this will currenly only works if NO Webiterface plugin installed
+			# TODO: test if webinterface AND openwebif installed
+			from Plugins.Extensions.OpenWebif.WebChilds.Toplevel import loaded_plugins
+			for plugins in loaded_plugins:
+				if plugins[0] in ["fancontrol", "iptvplayer", "serienrecorderui"]:
+					try:
+						extras.append({'key': plugins[0], 'description': plugins[2], 'nw': '2'})
+					except KeyError:
+						pass
+		except ImportError as e:
+			pass
+
 		if os.path.exists('/usr/bin/shellinaboxd') and (fileExists(resolveFilename(SCOPE_PLUGINS, "Extensions/OpenWebif/controllers/views/ajax/terminal.tmpl")) or fileExists(resolveFilename(SCOPE_PLUGINS, "Extensions/OpenWebif/controllers/views/ajax/terminal.pyo"))):
 			extras.append({'key': 'ajax/terminal', 'description': _('Terminal')})
 
