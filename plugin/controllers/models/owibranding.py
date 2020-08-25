@@ -47,10 +47,10 @@ def getAllInfo():
 
 	info['lcd'] = lcd or 0
 
+	remote = getRCName()
+
 	if getImageArch() == "sh4" and remote not in ("nbox","hl101"):
 		remote = "spark"
-	else:
-		remote = getRCName()
 
 	info['remote'] = remote
 
