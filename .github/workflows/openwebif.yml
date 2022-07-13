@@ -39,14 +39,7 @@ jobs:
 
       - name: compile python2
         run: |
-          sudo apt-get install -y closure-compiler nodejs npm gettext
-          sudo npm install -g jshint
-          pip install Cheetah
-          pip install -r CI/requirements.txt
-          pip install bandit==1.6.2
-          pip install six
-          python -m compileall .
-          cheetah compile -R plugin
+          python2-m compileall .
 
       - name: compile po files
         run: |
