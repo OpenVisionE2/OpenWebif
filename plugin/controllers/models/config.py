@@ -332,7 +332,7 @@ class ConfigFiles:
 					except Exception:
 						return False
 				else:
-					result = SystemInfo.get(requires, False)
+					result = BoxInfo.get(requires, False)
 				if require and negate == result:  # The item requirements are not met.
 					return False
 		conditional = element.get("conditional")
