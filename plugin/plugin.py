@@ -88,19 +88,7 @@ config.OpenWebif.local_access_only = ConfigSelection(default=' ', choices=[' '])
 config.OpenWebif.vpn_access = ConfigYesNo(default=False)
 config.OpenWebif.allow_upload_ipk = ConfigYesNo(default=False)
 # encoding of EPG data
-config.OpenWebif.epg_encoding = ConfigSelection(default='utf-8', choices=['utf-8',
-										'iso-8859-15',
-										'iso-8859-1',
-										'iso-8859-2',
-										'iso-8859-3',
-										'iso-8859-4',
-										'iso-8859-5',
-										'iso-8859-6',
-										'iso-8859-7',
-										'iso-8859-8',
-										'iso-8859-9',
-										'iso-8859-10',
-										'iso-8859-16'])
+config.OpenWebif.epg_encoding = ConfigSelection(default='utf-8', choices=['utf-8', 'iso-8859-15', 'iso-8859-1', 'iso-8859-2', 'iso-8859-3', 'iso-8859-4', 'iso-8859-5', 'iso-8859-6', 'iso-8859-7', 'iso-8859-8', 'iso-8859-9', 'iso-8859-10', 'iso-8859-16'])
 
 config.OpenWebif.displayTracebacks = ConfigYesNo(default=False)
 config.OpenWebif.playiptvdirect = ConfigYesNo(default=True)

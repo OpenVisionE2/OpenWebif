@@ -378,7 +378,7 @@ class ConfigFiles:
 				key = section.get("key")
 				if key not in self.allowedsections:
 					showOpenWebif = section.get("showOpenWebif") or section.get("showOpenWebIf") or section.get("showOpenWebIF") or "0"
-					if showOpenWebif.lower() in ("1", "showopenwebif", "enabled", "on", "true", "yes"):
+					if showOpenWebif.lower() in ("1", "showopenwebif", "enabled", "enable", "on", "true", "yes"):
 						self.allowedsections.append(key)
 					else:
 						continue
