@@ -20,15 +20,10 @@
 # Inc., 51 Franklin Street, Fifth Floor, Boston MA 02110-1301, USA.
 ##############################################################################
 
-from Tools.Directories import fileExists, pathExists
-from time import time
-import os
-import hashlib
 from Tools.StbHardware import getFPVersion, getBoxProc
 from Components.SystemInfo import BoxInfo
 
 model = BoxInfo.getItem("model")
-platform = BoxInfo.getItem("platform")
 fp_version = str(getFPVersion())
 procmodel = getBoxProc()
 
@@ -37,13 +32,13 @@ def getAllInfo():
 	info = {}
 
 	grabpip = 0
-	if "4k" or "uhd" or "ultra" in model or BoxInfo.getItem("HiSilicon") or platform == "dm4kgen":
+	if BoxInfo.getItem("ArchIsARM") or BoxInfo.getItem("ArchIsARM64"):
 		grabpip = 1
 
 	info['grabpip'] = grabpip or 0
 
 	lcd = 0
-	if "lcd" in model or BoxInfo.getItem("displaytype") in ("bwlcd96", "bwlcd128", "bwlcd140", "bwlcd255", "colorlcd128", "colorlcd220", "colorlcd400", "colorlcd480", "colorlcd720", "colorlcd800"):
+	if ("lcd" in model) or ("lcd" in BoxInfo.getItem("displaytype")):
 		lcd = 1
 
 	info['lcd'] = lcd or 0
