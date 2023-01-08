@@ -118,7 +118,7 @@ class RootController(BaseController):
 
 		# TODO: remove this if mobile parts removed
 		if uagent and mode != 'fullpage' and os.path.exists(getPublicPath('mobile')):
-			if uagent.lower().find("iphone") != -1 or uagent.lower().find("ipod") != -1 or uagent.lower().find("blackberry") != -1 or uagent.lower().find("mobile") != -1:
+			if uagent.lower().find("iphone") != -1 or uagent.lower().find("ipod") != -1 or uagent.lower().find("blackberry") != -1 or uagent.lower().find("mobile") != -1 or uagent.lower().find("android") != -1:
 				request.setHeader("Location", "/mobile/")
 				request.setResponseCode(http.FOUND)
 				return ""

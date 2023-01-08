@@ -109,7 +109,7 @@ def buildRootTree(session):
 		for external in externals:
 			if external[-3:] == ".py":
 				modulename = external[:-3]
-			elif external[-4:] == ".pyo":
+			elif external[-4:] == ".pyo" or external[-4:] == ".pyc":
 				modulename = external[:-4]
 			else:
 				continue

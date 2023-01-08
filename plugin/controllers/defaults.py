@@ -7,28 +7,10 @@ import re
 from Components.Language import language
 from Components.config import config as comp_config
 from Components.Network import iNetwork
-
-try:
-	from Tools.Directories import isPluginInstalled
-except ImportError:
-	# fallback for old images
-	from Tools.Directories import resolveFilename, SCOPE_PLUGINS
-
-	def isPluginInstalled(p, plugin="plugin"):
-		for ext in ['', 'c', 'o']:
-			if os.path.exists(resolveFilename(SCOPE_PLUGINS, "SystemPlugins/%s/%s.py%s" % (p, plugin, ext))):
-				return True
-			if os.path.exists(resolveFilename(SCOPE_PLUGINS, "Extensions/%s/%s.py%s" % (p, plugin, ext))):
-				return True
-
-
-def _isPluginInstalled(p, plugin="plugin"):
-	return isPluginInstalled(p, plugin)
-
-
+from Tools.Directories import isPluginInstalled
 from Components.SystemInfo import BoxInfo
 
-OPENWEBIFVER = "OWIF 1.5.2.6 for Open Vision"
+OPENWEBIFVER = "OWIF 1.5.2.7 for Open Vision"
 
 PLUGIN_NAME = 'OpenWebif'
 PLUGIN_DESCRIPTION = "OpenWebif Configuration"
