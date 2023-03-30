@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenWebif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 21:32+0330\n"
+"POT-Creation-Date: 2023-03-30 20:58+0330\n"
 "PO-Revision-Date: 2021-12-02 19:55+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/e2openplugin-openwebif/e2openplugin-openwebif/ar/>\n"
@@ -155,7 +155,7 @@ msgstr "إضافة مؤقت"
 msgid "Add selection to bouquet"
 msgstr "إضافة قناة (قنوات) إلى الباقة"
 
-#: ../plugin/plugin.py:188
+#: ../plugin/plugin.py:176
 msgid "Add service name to stream information"
 msgstr "إضافة اسم الخدمة إلى معلومات قنوات البث"
 
@@ -197,7 +197,7 @@ msgstr "جميع ملفات هذا البرنامج هي برامج مفتوحة
 msgid "All alternative services deleted."
 msgstr "تم حذف كافة القنوات البديلة."
 
-#: ../plugin/plugin.py:189
+#: ../plugin/plugin.py:177
 msgid "Allow IPK Upload"
 msgstr "السماح برفع الملفات المحمية"
 
@@ -486,7 +486,7 @@ msgstr "كيبل"
 msgid "Calendar Week"
 msgstr "تقويم الاسبوع"
 
-#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:132
+#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:120
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -578,7 +578,7 @@ msgstr ""
 msgid "Custom STB name"
 msgstr "أسم الجهاز المخصص"
 
-#: ../plugin/plugin.py:172
+#: ../plugin/plugin.py:160
 msgid "Custom box name"
 msgstr "أسم الجهاز المخصص"
 
@@ -611,7 +611,7 @@ msgstr ""
 msgid "Date (oldest)"
 msgstr ""
 
-#: ../plugin/plugin.py:191
+#: ../plugin/plugin.py:179
 msgid "Debug - Display Tracebacks in browser"
 msgstr ""
 
@@ -681,7 +681,7 @@ msgstr "تم التعطيل"
 msgid "Disable Timer"
 msgstr "تعطيل المؤقت"
 
-#: ../plugin/plugin.py:182
+#: ../plugin/plugin.py:170
 msgid "Disable remote access for user root"
 msgstr "تعطيل الوصول البعيد لجذر المستخدم"
 
@@ -784,19 +784,19 @@ msgstr "المحرر"
 msgid "Enable"
 msgstr "تم التفعيل"
 
-#: ../plugin/plugin.py:181
+#: ../plugin/plugin.py:169
 msgid "Enable Authentication for streaming"
 msgstr "تمكين مصادقة للتدفق"
 
-#: ../plugin/plugin.py:174
+#: ../plugin/plugin.py:162
 msgid "Enable HTTP Authentication"
 msgstr "تفعيل توثيق بروتوكول نقل النصوص"
 
-#: ../plugin/plugin.py:175
+#: ../plugin/plugin.py:163
 msgid "Enable HTTPS"
 msgstr "تمكين بروتوكول نقل الروابط المحمية"
 
-#: ../plugin/plugin.py:178
+#: ../plugin/plugin.py:166
 msgid "Enable HTTPS Authentication"
 msgstr "تفعيل توثيق بروتوكول نقل النصوص المحمي"
 
@@ -804,7 +804,7 @@ msgstr "تفعيل توثيق بروتوكول نقل النصوص المحمي"
 msgid "Enable Messages"
 msgstr "تمكين الرسائل"
 
-#: ../plugin/plugin.py:186
+#: ../plugin/plugin.py:174
 msgid "Enable Parental Control"
 msgstr "تمكين الرقابة الابوية"
 
@@ -812,7 +812,7 @@ msgstr "تمكين الرقابة الابوية"
 msgid "Enable Timer"
 msgstr "تفعيل المؤقت"
 
-#: ../plugin/plugin.py:185
+#: ../plugin/plugin.py:173
 msgid "Enable access from VPNs"
 msgstr "تمكين الدخول من الشبكة الخاصة"
 
@@ -1037,13 +1037,13 @@ msgstr "إصدار المعالج الامامي"
 msgid "Full remote"
 msgstr "جهاز تحكم عن بعد كامل"
 
+#: ../plugin/controllers/models/movies.py:279
+#: ../plugin/controllers/models/movies.py:409
+#: ../plugin/controllers/models/movies.py:837
 #: ../plugin/controllers/models/info.py:369
 #: ../plugin/controllers/models/info.py:375
 #: ../plugin/controllers/models/info.py:390
 #: ../plugin/controllers/models/info.py:393
-#: ../plugin/controllers/models/movies.py:279
-#: ../plugin/controllers/models/movies.py:409
-#: ../plugin/controllers/models/movies.py:837
 msgid "GB"
 msgstr "جيجابايت"
 
@@ -1081,11 +1081,11 @@ msgstr ""
 msgid "HH:MM"
 msgstr ""
 
-#: ../plugin/plugin.py:173
+#: ../plugin/plugin.py:161
 msgid "HTTP port"
 msgstr "منفذ (بروتوكول محمي التشفير)"
 
-#: ../plugin/plugin.py:177
+#: ../plugin/plugin.py:165
 msgid "HTTPS port"
 msgstr "منفذ بروتوكول نقل النصوص المحمي"
 
@@ -1301,12 +1301,12 @@ msgstr "مقفل"
 msgid "MAC address"
 msgstr "إعدادات شبكة تحكم وصول الوسائط"
 
-#: ../plugin/controllers/models/info.py:366
-#: ../plugin/controllers/models/info.py:377
-#: ../plugin/controllers/models/info.py:395
 #: ../plugin/controllers/models/movies.py:281
 #: ../plugin/controllers/models/movies.py:411
 #: ../plugin/controllers/models/movies.py:839
+#: ../plugin/controllers/models/info.py:366
+#: ../plugin/controllers/models/info.py:377
+#: ../plugin/controllers/models/info.py:395
 msgid "MB"
 msgstr "ميجابايت"
 
@@ -1708,7 +1708,7 @@ msgstr "فتح في نافذة جديد"
 msgid "OpenSSL"
 msgstr ""
 
-#: ../plugin/plugin.py:159
+#: ../plugin/plugin.py:147
 msgid "OpenWebInterface Enabled"
 msgstr "تميكن فتح واجهة المستخدم"
 
@@ -1716,7 +1716,7 @@ msgstr "تميكن فتح واجهة المستخدم"
 msgid "OpenWebif Browser Settings"
 msgstr "إعدادات متصفح الإنترنت المفتوح"
 
-#: ../plugin/plugin.py:200 ../plugin/plugin.py:268 ../plugin/plugin.py:270
+#: ../plugin/plugin.py:188 ../plugin/plugin.py:256 ../plugin/plugin.py:258
 msgid "OpenWebif Configuration"
 msgstr "تكوين فتح واجهة إستخدام الويب"
 
@@ -1724,7 +1724,7 @@ msgstr "تكوين فتح واجهة إستخدام الويب"
 msgid "OpenWebif Settings"
 msgstr "إعدادات الإنترنت المفتوح"
 
-#: ../plugin/plugin.py:145
+#: ../plugin/plugin.py:133
 #, fuzzy
 msgid "OpenWebif url:"
 msgstr "رابط الإنترنت المفتوح:"
@@ -1787,7 +1787,7 @@ msgstr "قائمة التشغيل"
 msgid "Playback"
 msgstr "تشغيل"
 
-#: ../plugin/plugin.py:190
+#: ../plugin/plugin.py:178
 msgid "Playback IPTV Streams in browser"
 msgstr ""
 
@@ -1923,7 +1923,7 @@ msgstr "أعاده تسمية التسجيل"
 msgid "Repeated"
 msgstr "مكرر"
 
-#: ../plugin/plugin.py:179
+#: ../plugin/plugin.py:167
 msgid "Require client cert for HTTPS"
 msgstr "يتطلب شهادة العميل لصيغة تشفير الصفحة المحمية"
 
@@ -2015,7 +2015,7 @@ msgid "Saturday"
 msgstr "السبت"
 
 #: ../plugin/controllers/i18n.py:256 ../plugin/controllers/i18n.py:426
-#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:133
+#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:121
 msgid "Save"
 msgstr "Save"
 
@@ -2167,7 +2167,7 @@ msgstr "حدد أقصى مده"
 msgid "Settings"
 msgstr "إعدادات"
 
-#: ../plugin/plugin.py:161
+#: ../plugin/plugin.py:149
 msgid "Show CPU benchmark in STB information"
 msgstr ""
 
@@ -2183,11 +2183,11 @@ msgstr "عرض كامل لصفحة واجهة الانترنت مفتوحة"
 msgid "Show IPTV channels in selection (eg. Autotimer)"
 msgstr ""
 
-#: ../plugin/plugin.py:163
+#: ../plugin/plugin.py:151
 msgid "Show Python benchmark in STB information"
 msgstr ""
 
-#: ../plugin/plugin.py:162
+#: ../plugin/plugin.py:150
 msgid "Show RAM benchmark in STB information"
 msgstr ""
 
@@ -2201,7 +2201,7 @@ msgstr "عرض أسم الجهاز في العنوان الرئيسي"
 msgid "Show all packages"
 msgstr "قم بترقية جميع الحزم"
 
-#: ../plugin/plugin.py:168
+#: ../plugin/plugin.py:156
 msgid "Show box name in header"
 msgstr "عرض أسم الجهاز في العنوان الرئيسي"
 
@@ -2363,7 +2363,7 @@ msgstr "‫Stream"
 msgid "Stream Clients"
 msgstr "‫Stream"
 
-#: ../plugin/plugin.py:187
+#: ../plugin/plugin.py:175
 #, fuzzy
 msgid "Streaming port"
 msgstr "‫Stream"
@@ -2480,7 +2480,7 @@ msgstr "المؤقت '%s' الأن يسجل! ليس معطلا!"
 msgid "Theme"
 msgstr "سمة"
 
-#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:166
+#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:154
 #, fuzzy
 msgid "Theme mode"
 msgstr "سمة"
@@ -2697,7 +2697,7 @@ msgstr ""
 msgid "Use classic interface"
 msgstr "استخدام التصميم الجديد"
 
-#: ../plugin/plugin.py:167
+#: ../plugin/plugin.py:155
 #, fuzzy
 msgid "Use custom Color"
 msgstr "استخدام موقع مخصص"
@@ -2707,7 +2707,7 @@ msgstr "استخدام موقع مخصص"
 msgid "Use custom STB name"
 msgstr "إستخدام مخصص لإسم الجهاز"
 
-#: ../plugin/plugin.py:170
+#: ../plugin/plugin.py:158
 msgid "Use custom box name"
 msgstr "إستخدام مخصص لإسم الجهاز"
 
@@ -2716,7 +2716,7 @@ msgstr "إستخدام مخصص لإسم الجهاز"
 msgid "Use modern design"
 msgstr "استخدام التصميم الجديد"
 
-#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:164
+#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:152
 msgid "Use modern interface"
 msgstr "استخدام التصميم الجديد"
 
@@ -2813,7 +2813,7 @@ msgstr "اسبوعيا (الاحد)"
 msgid "Widescreen"
 msgstr ""
 
-#: ../plugin/plugin.py:184
+#: ../plugin/plugin.py:172
 msgid "Without auth only local access is allowed!"
 msgstr "دون المصادقة يسمح فقط الوصول المحلي!"
 
@@ -2877,7 +2877,7 @@ msgstr "إضافة مؤقت"
 msgid "auto"
 msgstr "تلقائي"
 
-#: ../plugin/plugin.py:139
+#: ../plugin/plugin.py:127
 msgid "box_ip"
 msgstr ""
 
@@ -2944,11 +2944,11 @@ msgstr "الذهاب لوضع الاستعداد"
 msgid "hour"
 msgstr "ساعه"
 
-#: ../plugin/controllers/models/info.py:244
-#: ../plugin/controllers/models/info.py:247
 #: ../plugin/controllers/models/movies.py:283
 #: ../plugin/controllers/models/movies.py:413
 #: ../plugin/controllers/models/movies.py:841
+#: ../plugin/controllers/models/info.py:244
+#: ../plugin/controllers/models/info.py:247
 msgid "kB"
 msgstr "كيلوبايت"
 

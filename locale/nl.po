@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenWebif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 21:32+0330\n"
+"POT-Creation-Date: 2023-03-30 20:58+0330\n"
 "PO-Revision-Date: 2021-12-23 21:59+0100\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/e2openplugin-openwebif/e2openplugin-openwebif/nl/>\n"
@@ -153,7 +153,7 @@ msgstr "Voeg filters toe"
 msgid "Add selection to bouquet"
 msgstr "Zender(s) toevoegen aan Bouquet"
 
-#: ../plugin/plugin.py:188
+#: ../plugin/plugin.py:176
 msgid "Add service name to stream information"
 msgstr "De zendernaam toevoegen aan stream informatie"
 
@@ -195,7 +195,7 @@ msgstr "Alle bestanden van deze software zijn Open Source; u kunt deze herdistri
 msgid "All alternative services deleted."
 msgstr "Alle alternatieve zenders verwijderd."
 
-#: ../plugin/plugin.py:189
+#: ../plugin/plugin.py:177
 msgid "Allow IPK Upload"
 msgstr "IPK upload toestaan"
 
@@ -481,7 +481,7 @@ msgstr "Kabel"
 msgid "Calendar Week"
 msgstr "Kalender week"
 
-#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:132
+#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:120
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -573,7 +573,7 @@ msgstr ""
 msgid "Custom STB name"
 msgstr "Alternatieve naam voor de box"
 
-#: ../plugin/plugin.py:172
+#: ../plugin/plugin.py:160
 msgid "Custom box name"
 msgstr "Alternatieve naam voor de box"
 
@@ -606,7 +606,7 @@ msgstr "Datum (nieuwste)"
 msgid "Date (oldest)"
 msgstr "Datum (oudste)"
 
-#: ../plugin/plugin.py:191
+#: ../plugin/plugin.py:179
 msgid "Debug - Display Tracebacks in browser"
 msgstr "Debug - Tracebacks weergeven in de browser"
 
@@ -674,7 +674,7 @@ msgstr "Déactiveer"
 msgid "Disable Timer"
 msgstr "Timer uitschakelen"
 
-#: ../plugin/plugin.py:182
+#: ../plugin/plugin.py:170
 msgid "Disable remote access for user root"
 msgstr "Déactiveer de externe toegang voor de gebruiker 'root'"
 
@@ -774,19 +774,19 @@ msgstr "Editor"
 msgid "Enable"
 msgstr "Ingeschakeld"
 
-#: ../plugin/plugin.py:181
+#: ../plugin/plugin.py:169
 msgid "Enable Authentication for streaming"
 msgstr "Streaming authentificatie inschakelen"
 
-#: ../plugin/plugin.py:174
+#: ../plugin/plugin.py:162
 msgid "Enable HTTP Authentication"
 msgstr "HTTP authentificatie inschakelen"
 
-#: ../plugin/plugin.py:175
+#: ../plugin/plugin.py:163
 msgid "Enable HTTPS"
 msgstr "HTTPS inschakelen"
 
-#: ../plugin/plugin.py:178
+#: ../plugin/plugin.py:166
 msgid "Enable HTTPS Authentication"
 msgstr "HTTPS authentificatie inschakelen"
 
@@ -794,7 +794,7 @@ msgstr "HTTPS authentificatie inschakelen"
 msgid "Enable Messages"
 msgstr "Berichten inschakelen"
 
-#: ../plugin/plugin.py:186
+#: ../plugin/plugin.py:174
 msgid "Enable Parental Control"
 msgstr "Kinderslot inschakelen"
 
@@ -802,7 +802,7 @@ msgstr "Kinderslot inschakelen"
 msgid "Enable Timer"
 msgstr "Timer inschakelen"
 
-#: ../plugin/plugin.py:185
+#: ../plugin/plugin.py:173
 msgid "Enable access from VPNs"
 msgstr "Toegang voor VPN's inschakelen"
 
@@ -1024,13 +1024,13 @@ msgstr "Frontprocessor Versie"
 msgid "Full remote"
 msgstr "Volledige AB"
 
+#: ../plugin/controllers/models/movies.py:279
+#: ../plugin/controllers/models/movies.py:409
+#: ../plugin/controllers/models/movies.py:837
 #: ../plugin/controllers/models/info.py:369
 #: ../plugin/controllers/models/info.py:375
 #: ../plugin/controllers/models/info.py:390
 #: ../plugin/controllers/models/info.py:393
-#: ../plugin/controllers/models/movies.py:279
-#: ../plugin/controllers/models/movies.py:409
-#: ../plugin/controllers/models/movies.py:837
 msgid "GB"
 msgstr "GB"
 
@@ -1068,11 +1068,11 @@ msgstr ""
 msgid "HH:MM"
 msgstr "HH:MM"
 
-#: ../plugin/plugin.py:173
+#: ../plugin/plugin.py:161
 msgid "HTTP port"
 msgstr "HTTP poort"
 
-#: ../plugin/plugin.py:177
+#: ../plugin/plugin.py:165
 msgid "HTTPS port"
 msgstr "HTTPS poort"
 
@@ -1287,12 +1287,12 @@ msgstr "Vergrendeld"
 msgid "MAC address"
 msgstr "MAC-adres"
 
-#: ../plugin/controllers/models/info.py:366
-#: ../plugin/controllers/models/info.py:377
-#: ../plugin/controllers/models/info.py:395
 #: ../plugin/controllers/models/movies.py:281
 #: ../plugin/controllers/models/movies.py:411
 #: ../plugin/controllers/models/movies.py:839
+#: ../plugin/controllers/models/info.py:366
+#: ../plugin/controllers/models/info.py:377
+#: ../plugin/controllers/models/info.py:395
 msgid "MB"
 msgstr "MB"
 
@@ -1689,7 +1689,7 @@ msgstr "Open in nieuw venster"
 msgid "OpenSSL"
 msgstr ""
 
-#: ../plugin/plugin.py:159
+#: ../plugin/plugin.py:147
 msgid "OpenWebInterface Enabled"
 msgstr "OpenWebinterface status"
 
@@ -1697,7 +1697,7 @@ msgstr "OpenWebinterface status"
 msgid "OpenWebif Browser Settings"
 msgstr "Openwebif Browser instellingen"
 
-#: ../plugin/plugin.py:200 ../plugin/plugin.py:268 ../plugin/plugin.py:270
+#: ../plugin/plugin.py:188 ../plugin/plugin.py:256 ../plugin/plugin.py:258
 msgid "OpenWebif Configuration"
 msgstr "Openwebif configuratie"
 
@@ -1705,7 +1705,7 @@ msgstr "Openwebif configuratie"
 msgid "OpenWebif Settings"
 msgstr "Openwebif instellingen"
 
-#: ../plugin/plugin.py:145
+#: ../plugin/plugin.py:133
 msgid "OpenWebif url:"
 msgstr "Openwebif URL:"
 
@@ -1767,7 +1767,7 @@ msgstr "Afspeellijst formaat"
 msgid "Playback"
 msgstr "Afspelen"
 
-#: ../plugin/plugin.py:190
+#: ../plugin/plugin.py:178
 msgid "Playback IPTV Streams in browser"
 msgstr "Afspelen van IPTV streams in de browser"
 
@@ -1900,7 +1900,7 @@ msgstr "Hernoem opname"
 msgid "Repeated"
 msgstr "Herhaald"
 
-#: ../plugin/plugin.py:179
+#: ../plugin/plugin.py:167
 msgid "Require client cert for HTTPS"
 msgstr "Een gebruikers certificaat is vereist voor HTTPS"
 
@@ -1990,7 +1990,7 @@ msgid "Saturday"
 msgstr "zaterdag"
 
 #: ../plugin/controllers/i18n.py:256 ../plugin/controllers/i18n.py:426
-#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:133
+#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:121
 msgid "Save"
 msgstr "Bevestigen"
 
@@ -2139,7 +2139,7 @@ msgstr "Stel de maximale duur in"
 msgid "Settings"
 msgstr "Instellingen"
 
-#: ../plugin/plugin.py:161
+#: ../plugin/plugin.py:149
 msgid "Show CPU benchmark in STB information"
 msgstr ""
 
@@ -2155,11 +2155,11 @@ msgstr "Toon volledige OpenWebif"
 msgid "Show IPTV channels in selection (eg. Autotimer)"
 msgstr "Toon de IPTV zenders in de selectie (bv. Autotimer)"
 
-#: ../plugin/plugin.py:163
+#: ../plugin/plugin.py:151
 msgid "Show Python benchmark in STB information"
 msgstr ""
 
-#: ../plugin/plugin.py:162
+#: ../plugin/plugin.py:150
 msgid "Show RAM benchmark in STB information"
 msgstr ""
 
@@ -2172,7 +2172,7 @@ msgstr "Toon de naam van de box rechtsboven"
 msgid "Show all packages"
 msgstr "Toon alle pakketten"
 
-#: ../plugin/plugin.py:168
+#: ../plugin/plugin.py:156
 msgid "Show box name in header"
 msgstr "Toon de naam van de box rechtsboven"
 
@@ -2332,7 +2332,7 @@ msgstr "Stream"
 msgid "Stream Clients"
 msgstr "Stream clients"
 
-#: ../plugin/plugin.py:187
+#: ../plugin/plugin.py:175
 msgid "Streaming port"
 msgstr "Streamingpoort"
 
@@ -2448,7 +2448,7 @@ msgstr "De timer '%s' is nu opgenomen! Niet uitgeschakeld!"
 msgid "Theme"
 msgstr "Thema"
 
-#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:166
+#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:154
 msgid "Theme mode"
 msgstr "Thema modus"
 
@@ -2663,7 +2663,7 @@ msgstr "Gebruik indien mogelijk als PIP"
 msgid "Use classic interface"
 msgstr "Gebruik de klassieke interface"
 
-#: ../plugin/plugin.py:167
+#: ../plugin/plugin.py:155
 msgid "Use custom Color"
 msgstr "Gebruik een aangepaste kleur"
 
@@ -2672,7 +2672,7 @@ msgstr "Gebruik een aangepaste kleur"
 msgid "Use custom STB name"
 msgstr "Gebruik een alternatieve naam voor de box"
 
-#: ../plugin/plugin.py:170
+#: ../plugin/plugin.py:158
 msgid "Use custom box name"
 msgstr "Gebruik een alternatieve naam voor de box"
 
@@ -2680,7 +2680,7 @@ msgstr "Gebruik een alternatieve naam voor de box"
 msgid "Use modern design"
 msgstr "Gebruik een modern ontwerp"
 
-#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:164
+#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:152
 msgid "Use modern interface"
 msgstr "Gebruik de nieuwe vormgeving"
 
@@ -2777,7 +2777,7 @@ msgstr "Wekelijks (zondag)"
 msgid "Widescreen"
 msgstr ""
 
-#: ../plugin/plugin.py:184
+#: ../plugin/plugin.py:172
 msgid "Without auth only local access is allowed!"
 msgstr "Zonder authentificatie is alléén lokale toegang mogelijk!"
 
@@ -2840,7 +2840,7 @@ msgstr "altijd"
 msgid "auto"
 msgstr "auto"
 
-#: ../plugin/plugin.py:139
+#: ../plugin/plugin.py:127
 msgid "box_ip"
 msgstr "IPadres van de box"
 
@@ -2905,11 +2905,11 @@ msgstr "ga naar standby"
 msgid "hour"
 msgstr "uur"
 
-#: ../plugin/controllers/models/info.py:244
-#: ../plugin/controllers/models/info.py:247
 #: ../plugin/controllers/models/movies.py:283
 #: ../plugin/controllers/models/movies.py:413
 #: ../plugin/controllers/models/movies.py:841
+#: ../plugin/controllers/models/info.py:244
+#: ../plugin/controllers/models/info.py:247
 msgid "kB"
 msgstr "kB"
 

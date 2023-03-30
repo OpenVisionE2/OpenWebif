@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenWebif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 21:32+0330\n"
+"POT-Creation-Date: 2023-03-30 20:58+0330\n"
 "PO-Revision-Date: 2021-12-02 19:56+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/e2openplugin-openwebif/e2openplugin-openwebif/et/>\n"
@@ -153,7 +153,7 @@ msgstr "Lisa taimer"
 msgid "Add selection to bouquet"
 msgstr "Lisa lemmiknimekirja"
 
-#: ../plugin/plugin.py:188
+#: ../plugin/plugin.py:176
 msgid "Add service name to stream information"
 msgstr "Lisa kanali nimi voo infosse"
 
@@ -195,7 +195,7 @@ msgstr "Kõik selle tarkvara failid vaba lähtekoodiga; neid võib levitada ja/v
 msgid "All alternative services deleted."
 msgstr "Kõik asenduskanalid on kustutatud."
 
-#: ../plugin/plugin.py:189
+#: ../plugin/plugin.py:177
 msgid "Allow IPK Upload"
 msgstr "Luba IPK üleslaadimine"
 
@@ -483,7 +483,7 @@ msgstr "Kaabel"
 msgid "Calendar Week"
 msgstr "Kalendrinädal"
 
-#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:132
+#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:120
 msgid "Cancel"
 msgstr "Tühista"
 
@@ -575,7 +575,7 @@ msgstr ""
 msgid "Custom STB name"
 msgstr "Kohandatud vastuvõtja nimi"
 
-#: ../plugin/plugin.py:172
+#: ../plugin/plugin.py:160
 msgid "Custom box name"
 msgstr "Kohandatud vastuvõtja nimi"
 
@@ -608,7 +608,7 @@ msgstr ""
 msgid "Date (oldest)"
 msgstr ""
 
-#: ../plugin/plugin.py:191
+#: ../plugin/plugin.py:179
 msgid "Debug - Display Tracebacks in browser"
 msgstr ""
 
@@ -677,7 +677,7 @@ msgstr "keelatud"
 msgid "Disable Timer"
 msgstr "Keela taimer"
 
-#: ../plugin/plugin.py:182
+#: ../plugin/plugin.py:170
 msgid "Disable remote access for user root"
 msgstr "Keela kaugligipääs kasutaja juurkataloogile"
 
@@ -780,19 +780,19 @@ msgstr "Redaktor"
 msgid "Enable"
 msgstr "Lubatud"
 
-#: ../plugin/plugin.py:181
+#: ../plugin/plugin.py:169
 msgid "Enable Authentication for streaming"
 msgstr "Voogesituse autentimine"
 
-#: ../plugin/plugin.py:174
+#: ../plugin/plugin.py:162
 msgid "Enable HTTP Authentication"
 msgstr "HTTP autentimine"
 
-#: ../plugin/plugin.py:175
+#: ../plugin/plugin.py:163
 msgid "Enable HTTPS"
 msgstr "Luba HTTPS"
 
-#: ../plugin/plugin.py:178
+#: ../plugin/plugin.py:166
 msgid "Enable HTTPS Authentication"
 msgstr "HTTPS autentimine"
 
@@ -800,7 +800,7 @@ msgstr "HTTPS autentimine"
 msgid "Enable Messages"
 msgstr "Luba teavitused"
 
-#: ../plugin/plugin.py:186
+#: ../plugin/plugin.py:174
 msgid "Enable Parental Control"
 msgstr "Luba lapselukk"
 
@@ -808,7 +808,7 @@ msgstr "Luba lapselukk"
 msgid "Enable Timer"
 msgstr "Luba taimer"
 
-#: ../plugin/plugin.py:185
+#: ../plugin/plugin.py:173
 msgid "Enable access from VPNs"
 msgstr "Luba ligipääs VPN võrgust"
 
@@ -1033,13 +1033,13 @@ msgstr "Esiprotsessori versioon"
 msgid "Full remote"
 msgstr "Täielik pult"
 
+#: ../plugin/controllers/models/movies.py:279
+#: ../plugin/controllers/models/movies.py:409
+#: ../plugin/controllers/models/movies.py:837
 #: ../plugin/controllers/models/info.py:369
 #: ../plugin/controllers/models/info.py:375
 #: ../plugin/controllers/models/info.py:390
 #: ../plugin/controllers/models/info.py:393
-#: ../plugin/controllers/models/movies.py:279
-#: ../plugin/controllers/models/movies.py:409
-#: ../plugin/controllers/models/movies.py:837
 msgid "GB"
 msgstr "GB"
 
@@ -1077,11 +1077,11 @@ msgstr ""
 msgid "HH:MM"
 msgstr ""
 
-#: ../plugin/plugin.py:173
+#: ../plugin/plugin.py:161
 msgid "HTTP port"
 msgstr "HTTP port"
 
-#: ../plugin/plugin.py:177
+#: ../plugin/plugin.py:165
 msgid "HTTPS port"
 msgstr "HTTPS port"
 
@@ -1297,12 +1297,12 @@ msgstr "Lukustatud"
 msgid "MAC address"
 msgstr "MAC aadress"
 
-#: ../plugin/controllers/models/info.py:366
-#: ../plugin/controllers/models/info.py:377
-#: ../plugin/controllers/models/info.py:395
 #: ../plugin/controllers/models/movies.py:281
 #: ../plugin/controllers/models/movies.py:411
 #: ../plugin/controllers/models/movies.py:839
+#: ../plugin/controllers/models/info.py:366
+#: ../plugin/controllers/models/info.py:377
+#: ../plugin/controllers/models/info.py:395
 msgid "MB"
 msgstr "MB"
 
@@ -1703,7 +1703,7 @@ msgstr "Ava uues aknas"
 msgid "OpenSSL"
 msgstr ""
 
-#: ../plugin/plugin.py:159
+#: ../plugin/plugin.py:147
 msgid "OpenWebInterface Enabled"
 msgstr "Luba OpenWebif"
 
@@ -1711,7 +1711,7 @@ msgstr "Luba OpenWebif"
 msgid "OpenWebif Browser Settings"
 msgstr "OpenWebif brauseri seaded"
 
-#: ../plugin/plugin.py:200 ../plugin/plugin.py:268 ../plugin/plugin.py:270
+#: ../plugin/plugin.py:188 ../plugin/plugin.py:256 ../plugin/plugin.py:258
 msgid "OpenWebif Configuration"
 msgstr "Veebiliidese seaded"
 
@@ -1719,7 +1719,7 @@ msgstr "Veebiliidese seaded"
 msgid "OpenWebif Settings"
 msgstr "OpenWebif seaded"
 
-#: ../plugin/plugin.py:145
+#: ../plugin/plugin.py:133
 #, fuzzy
 msgid "OpenWebif url:"
 msgstr "OpenWebif URL:"
@@ -1782,7 +1782,7 @@ msgstr "Pleilisti vorming"
 msgid "Playback"
 msgstr "Taasesitus"
 
-#: ../plugin/plugin.py:190
+#: ../plugin/plugin.py:178
 msgid "Playback IPTV Streams in browser"
 msgstr ""
 
@@ -1917,7 +1917,7 @@ msgstr "Nimeta salvestis ümber"
 msgid "Repeated"
 msgstr "Korduv"
 
-#: ../plugin/plugin.py:179
+#: ../plugin/plugin.py:167
 msgid "Require client cert for HTTPS"
 msgstr "HTTPS nõuab kliendi serti"
 
@@ -2009,7 +2009,7 @@ msgid "Saturday"
 msgstr "Laupäev"
 
 #: ../plugin/controllers/i18n.py:256 ../plugin/controllers/i18n.py:426
-#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:133
+#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:121
 msgid "Save"
 msgstr "Salvesta"
 
@@ -2161,7 +2161,7 @@ msgstr "Määra suurim kestus"
 msgid "Settings"
 msgstr "Seaded"
 
-#: ../plugin/plugin.py:161
+#: ../plugin/plugin.py:149
 msgid "Show CPU benchmark in STB information"
 msgstr ""
 
@@ -2177,11 +2177,11 @@ msgstr "Kuva täielik OpenWebif"
 msgid "Show IPTV channels in selection (eg. Autotimer)"
 msgstr ""
 
-#: ../plugin/plugin.py:163
+#: ../plugin/plugin.py:151
 msgid "Show Python benchmark in STB information"
 msgstr ""
 
-#: ../plugin/plugin.py:162
+#: ../plugin/plugin.py:150
 msgid "Show RAM benchmark in STB information"
 msgstr ""
 
@@ -2195,7 +2195,7 @@ msgstr "Kuva päises vastuvõtja nimi"
 msgid "Show all packages"
 msgstr "Uuenda kõik paketid"
 
-#: ../plugin/plugin.py:168
+#: ../plugin/plugin.py:156
 msgid "Show box name in header"
 msgstr "Kuva päises vastuvõtja nimi"
 
@@ -2356,7 +2356,7 @@ msgstr "Voogesitus"
 msgid "Stream Clients"
 msgstr "Voogesituskliendid"
 
-#: ../plugin/plugin.py:187
+#: ../plugin/plugin.py:175
 #, fuzzy
 msgid "Streaming port"
 msgstr "Voogesituskliendid"
@@ -2473,7 +2473,7 @@ msgstr "Taimer '%s' on nüüd salvestav! Mitte keelatud!"
 msgid "Theme"
 msgstr "Kujundus"
 
-#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:166
+#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:154
 #, fuzzy
 msgid "Theme mode"
 msgstr "Kujundus"
@@ -2690,7 +2690,7 @@ msgstr "Kasuta võimalusel PiP akent"
 msgid "Use classic interface"
 msgstr "Kasuta uut disaini"
 
-#: ../plugin/plugin.py:167
+#: ../plugin/plugin.py:155
 #, fuzzy
 msgid "Use custom Color"
 msgstr "Kasuta kohandatud asukohta"
@@ -2700,7 +2700,7 @@ msgstr "Kasuta kohandatud asukohta"
 msgid "Use custom STB name"
 msgstr "Kasuta kohandatud vastuvõtja nime"
 
-#: ../plugin/plugin.py:170
+#: ../plugin/plugin.py:158
 msgid "Use custom box name"
 msgstr "Kasuta kohandatud vastuvõtja nime"
 
@@ -2709,7 +2709,7 @@ msgstr "Kasuta kohandatud vastuvõtja nime"
 msgid "Use modern design"
 msgstr "Kasuta uut disaini"
 
-#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:164
+#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:152
 msgid "Use modern interface"
 msgstr "Kasuta uut disaini"
 
@@ -2806,7 +2806,7 @@ msgstr "Kord nädalas (pühapäev)"
 msgid "Widescreen"
 msgstr ""
 
-#: ../plugin/plugin.py:184
+#: ../plugin/plugin.py:172
 msgid "Without auth only local access is allowed!"
 msgstr "Autentimata on lubatud ainult kohalik aadress!"
 
@@ -2870,7 +2870,7 @@ msgstr "Lisa taimer"
 msgid "auto"
 msgstr "auto"
 
-#: ../plugin/plugin.py:139
+#: ../plugin/plugin.py:127
 msgid "box_ip"
 msgstr ""
 
@@ -2937,11 +2937,11 @@ msgstr "mine ooteseisundisse"
 msgid "hour"
 msgstr "tund"
 
-#: ../plugin/controllers/models/info.py:244
-#: ../plugin/controllers/models/info.py:247
 #: ../plugin/controllers/models/movies.py:283
 #: ../plugin/controllers/models/movies.py:413
 #: ../plugin/controllers/models/movies.py:841
+#: ../plugin/controllers/models/info.py:244
+#: ../plugin/controllers/models/info.py:247
 msgid "kB"
 msgstr "kB"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenWebif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 21:32+0330\n"
+"POT-Creation-Date: 2023-03-30 20:58+0330\n"
 "PO-Revision-Date: 2021-12-02 19:58+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/e2openplugin-openwebif/e2openplugin-openwebif/sv/>\n"
@@ -156,7 +156,7 @@ msgstr "Lägg till timer"
 msgid "Add selection to bouquet"
 msgstr "Lägg till kanal(er) till en favoritlista"
 
-#: ../plugin/plugin.py:188
+#: ../plugin/plugin.py:176
 msgid "Add service name to stream information"
 msgstr "Lägg till distributörens namn till strömningsinformationen"
 
@@ -198,7 +198,7 @@ msgstr ""
 msgid "All alternative services deleted."
 msgstr "Alla alternativa distributörer togs bort."
 
-#: ../plugin/plugin.py:189
+#: ../plugin/plugin.py:177
 msgid "Allow IPK Upload"
 msgstr ""
 
@@ -487,7 +487,7 @@ msgstr "Kabel-TV"
 msgid "Calendar Week"
 msgstr ""
 
-#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:132
+#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:120
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -581,7 +581,7 @@ msgstr ""
 msgid "Custom STB name"
 msgstr "Anpassat boxnamn"
 
-#: ../plugin/plugin.py:172
+#: ../plugin/plugin.py:160
 msgid "Custom box name"
 msgstr "Anpassat boxnamn"
 
@@ -614,7 +614,7 @@ msgstr ""
 msgid "Date (oldest)"
 msgstr ""
 
-#: ../plugin/plugin.py:191
+#: ../plugin/plugin.py:179
 msgid "Debug - Display Tracebacks in browser"
 msgstr ""
 
@@ -683,7 +683,7 @@ msgstr "avaktiverat"
 msgid "Disable Timer"
 msgstr "Slå av timern"
 
-#: ../plugin/plugin.py:182
+#: ../plugin/plugin.py:170
 msgid "Disable remote access for user root"
 msgstr "Slå av fjärråtkomst för rootanvändaren"
 
@@ -786,19 +786,19 @@ msgstr "Redigerare"
 msgid "Enable"
 msgstr "Aktiverat"
 
-#: ../plugin/plugin.py:181
+#: ../plugin/plugin.py:169
 msgid "Enable Authentication for streaming"
 msgstr "Aktivera autentisering för strömning"
 
-#: ../plugin/plugin.py:174
+#: ../plugin/plugin.py:162
 msgid "Enable HTTP Authentication"
 msgstr "Aktivera HTTP autentisering"
 
-#: ../plugin/plugin.py:175
+#: ../plugin/plugin.py:163
 msgid "Enable HTTPS"
 msgstr "Aktivera HTTPS"
 
-#: ../plugin/plugin.py:178
+#: ../plugin/plugin.py:166
 msgid "Enable HTTPS Authentication"
 msgstr "Aktivera HTTPS autentisering"
 
@@ -806,7 +806,7 @@ msgstr "Aktivera HTTPS autentisering"
 msgid "Enable Messages"
 msgstr "Aktivera statusmeddelanden"
 
-#: ../plugin/plugin.py:186
+#: ../plugin/plugin.py:174
 msgid "Enable Parental Control"
 msgstr "Aktivera föräldrakontroll"
 
@@ -814,7 +814,7 @@ msgstr "Aktivera föräldrakontroll"
 msgid "Enable Timer"
 msgstr "Aktivera timern"
 
-#: ../plugin/plugin.py:185
+#: ../plugin/plugin.py:173
 msgid "Enable access from VPNs"
 msgstr "Aktivera åtkomst från VPN"
 
@@ -1040,13 +1040,13 @@ msgstr "Frontprocessorversion"
 msgid "Full remote"
 msgstr "Dölj stor fjärrkontroll"
 
+#: ../plugin/controllers/models/movies.py:279
+#: ../plugin/controllers/models/movies.py:409
+#: ../plugin/controllers/models/movies.py:837
 #: ../plugin/controllers/models/info.py:369
 #: ../plugin/controllers/models/info.py:375
 #: ../plugin/controllers/models/info.py:390
 #: ../plugin/controllers/models/info.py:393
-#: ../plugin/controllers/models/movies.py:279
-#: ../plugin/controllers/models/movies.py:409
-#: ../plugin/controllers/models/movies.py:837
 msgid "GB"
 msgstr "GB"
 
@@ -1084,11 +1084,11 @@ msgstr ""
 msgid "HH:MM"
 msgstr ""
 
-#: ../plugin/plugin.py:173
+#: ../plugin/plugin.py:161
 msgid "HTTP port"
 msgstr "HTTP port"
 
-#: ../plugin/plugin.py:177
+#: ../plugin/plugin.py:165
 msgid "HTTPS port"
 msgstr "HTTPS port"
 
@@ -1307,12 +1307,12 @@ msgstr "Låst"
 msgid "MAC address"
 msgstr "MAC-adress"
 
-#: ../plugin/controllers/models/info.py:366
-#: ../plugin/controllers/models/info.py:377
-#: ../plugin/controllers/models/info.py:395
 #: ../plugin/controllers/models/movies.py:281
 #: ../plugin/controllers/models/movies.py:411
 #: ../plugin/controllers/models/movies.py:839
+#: ../plugin/controllers/models/info.py:366
+#: ../plugin/controllers/models/info.py:377
+#: ../plugin/controllers/models/info.py:395
 msgid "MB"
 msgstr "MB"
 
@@ -1716,7 +1716,7 @@ msgstr "Öppna i ett nytt fönster"
 msgid "OpenSSL"
 msgstr ""
 
-#: ../plugin/plugin.py:159
+#: ../plugin/plugin.py:147
 msgid "OpenWebInterface Enabled"
 msgstr "OpenWebif är aktiverad"
 
@@ -1724,7 +1724,7 @@ msgstr "OpenWebif är aktiverad"
 msgid "OpenWebif Browser Settings"
 msgstr "OpenWebifs inställningar för webbläsare"
 
-#: ../plugin/plugin.py:200 ../plugin/plugin.py:268 ../plugin/plugin.py:270
+#: ../plugin/plugin.py:188 ../plugin/plugin.py:256 ../plugin/plugin.py:258
 msgid "OpenWebif Configuration"
 msgstr "Inställningar för OpenWebif"
 
@@ -1732,7 +1732,7 @@ msgstr "Inställningar för OpenWebif"
 msgid "OpenWebif Settings"
 msgstr "Inställningar för OpenWebif"
 
-#: ../plugin/plugin.py:145
+#: ../plugin/plugin.py:133
 #, fuzzy
 msgid "OpenWebif url:"
 msgstr "OpenWebif URL:"
@@ -1795,7 +1795,7 @@ msgstr "Spellista"
 msgid "Playback"
 msgstr "Uppspelning"
 
-#: ../plugin/plugin.py:190
+#: ../plugin/plugin.py:178
 msgid "Playback IPTV Streams in browser"
 msgstr ""
 
@@ -1931,7 +1931,7 @@ msgstr "Byt namn på inspelningen"
 msgid "Repeated"
 msgstr "Repeterat"
 
-#: ../plugin/plugin.py:179
+#: ../plugin/plugin.py:167
 msgid "Require client cert for HTTPS"
 msgstr "Kräv klientcertifikat för HTTPS"
 
@@ -2023,7 +2023,7 @@ msgid "Saturday"
 msgstr "Lördag"
 
 #: ../plugin/controllers/i18n.py:256 ../plugin/controllers/i18n.py:426
-#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:133
+#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:121
 msgid "Save"
 msgstr "Spara"
 
@@ -2176,7 +2176,7 @@ msgstr "Ställ in maximal varaktighet (i min)"
 msgid "Settings"
 msgstr "Inställningar"
 
-#: ../plugin/plugin.py:161
+#: ../plugin/plugin.py:149
 msgid "Show CPU benchmark in STB information"
 msgstr ""
 
@@ -2192,11 +2192,11 @@ msgstr "Visa fullständiga OpenWebif"
 msgid "Show IPTV channels in selection (eg. Autotimer)"
 msgstr ""
 
-#: ../plugin/plugin.py:163
+#: ../plugin/plugin.py:151
 msgid "Show Python benchmark in STB information"
 msgstr ""
 
-#: ../plugin/plugin.py:162
+#: ../plugin/plugin.py:150
 msgid "Show RAM benchmark in STB information"
 msgstr ""
 
@@ -2209,7 +2209,7 @@ msgstr "Visa digitalboxens namn i rubriken"
 msgid "Show all packages"
 msgstr ""
 
-#: ../plugin/plugin.py:168
+#: ../plugin/plugin.py:156
 msgid "Show box name in header"
 msgstr "Visa digitalboxens namn i rubriken"
 
@@ -2371,7 +2371,7 @@ msgstr "Strömma"
 msgid "Stream Clients"
 msgstr "Strömma"
 
-#: ../plugin/plugin.py:187
+#: ../plugin/plugin.py:175
 #, fuzzy
 msgid "Streaming port"
 msgstr "Strömma"
@@ -2488,7 +2488,7 @@ msgstr "Timern '%s' har registrerats! Inte avaktiverad!"
 msgid "Theme"
 msgstr "Tema"
 
-#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:166
+#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:154
 #, fuzzy
 msgid "Theme mode"
 msgstr "Tema"
@@ -2705,7 +2705,7 @@ msgstr ""
 msgid "Use classic interface"
 msgstr ""
 
-#: ../plugin/plugin.py:167
+#: ../plugin/plugin.py:155
 #, fuzzy
 msgid "Use custom Color"
 msgstr "Använd en anpassad lagringsplats"
@@ -2715,7 +2715,7 @@ msgstr "Använd en anpassad lagringsplats"
 msgid "Use custom STB name"
 msgstr "Använd anpassat boxnamn"
 
-#: ../plugin/plugin.py:170
+#: ../plugin/plugin.py:158
 msgid "Use custom box name"
 msgstr "Använd anpassat boxnamn"
 
@@ -2723,7 +2723,7 @@ msgstr "Använd anpassat boxnamn"
 msgid "Use modern design"
 msgstr ""
 
-#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:164
+#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:152
 msgid "Use modern interface"
 msgstr ""
 
@@ -2821,7 +2821,7 @@ msgstr "Veckovis (söndag)"
 msgid "Widescreen"
 msgstr ""
 
-#: ../plugin/plugin.py:184
+#: ../plugin/plugin.py:172
 msgid "Without auth only local access is allowed!"
 msgstr "Endast lokal åtkomst är tillåten utan inloggning!"
 
@@ -2885,7 +2885,7 @@ msgstr "Lägg till timer"
 msgid "auto"
 msgstr "automatisk"
 
-#: ../plugin/plugin.py:139
+#: ../plugin/plugin.py:127
 msgid "box_ip"
 msgstr ""
 
@@ -2952,11 +2952,11 @@ msgstr "inta viloläge"
 msgid "hour"
 msgstr ""
 
-#: ../plugin/controllers/models/info.py:244
-#: ../plugin/controllers/models/info.py:247
 #: ../plugin/controllers/models/movies.py:283
 #: ../plugin/controllers/models/movies.py:413
 #: ../plugin/controllers/models/movies.py:841
+#: ../plugin/controllers/models/info.py:244
+#: ../plugin/controllers/models/info.py:247
 msgid "kB"
 msgstr "kB"
 

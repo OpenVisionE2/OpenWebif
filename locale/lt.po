@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenWebif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 21:32+0330\n"
+"POT-Creation-Date: 2023-03-30 20:58+0330\n"
 "PO-Revision-Date: 2022-08-30 22:38+0300\n"
 "Last-Translator: Vytenis P. <vyteniui@gmail.com>\n"
 "Language-Team: Vytenis Pulokas <vyteniui@gmail.com>\n"
@@ -153,7 +153,7 @@ msgstr "Pridėti filtrus"
 msgid "Add selection to bouquet"
 msgstr "Įtraukti kanalą(us) į bukietą"
 
-#: ../plugin/plugin.py:188
+#: ../plugin/plugin.py:176
 msgid "Add service name to stream information"
 msgstr "Į transliacijos informaciją įtraukti kanalo pavadinimą"
 
@@ -195,7 +195,7 @@ msgstr "Visi šios programinės įrangos failai yra atviro kodo; jūs galite pla
 msgid "All alternative services deleted."
 msgstr "Visi alternatyvūs kanalai ištrinti."
 
-#: ../plugin/plugin.py:189
+#: ../plugin/plugin.py:177
 msgid "Allow IPK Upload"
 msgstr "Leisti IPK įkėlimą"
 
@@ -481,7 +481,7 @@ msgstr "Kabelinė"
 msgid "Calendar Week"
 msgstr "Kalendorinė savaitė"
 
-#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:132
+#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:120
 msgid "Cancel"
 msgstr "Atšaukti"
 
@@ -573,7 +573,7 @@ msgstr "Šiuo metu įrašoma"
 msgid "Custom STB name"
 msgstr "Savas aparato pavadinimas"
 
-#: ../plugin/plugin.py:172
+#: ../plugin/plugin.py:160
 msgid "Custom box name"
 msgstr "Savas aparato pavadinimas"
 
@@ -606,7 +606,7 @@ msgstr "pagal datą (naujausi)"
 msgid "Date (oldest)"
 msgstr "pagal datą (seniausi)"
 
-#: ../plugin/plugin.py:191
+#: ../plugin/plugin.py:179
 msgid "Debug - Display Tracebacks in browser"
 msgstr "Derinti – rodyti klaidų ataskaitas naršyklėje"
 
@@ -674,7 +674,7 @@ msgstr "Išjungti"
 msgid "Disable Timer"
 msgstr "Išjungti laikmatį"
 
-#: ../plugin/plugin.py:182
+#: ../plugin/plugin.py:170
 msgid "Disable remote access for user root"
 msgstr "Uždrausti 'root' vartotojo prieigą"
 
@@ -774,19 +774,19 @@ msgstr "Redaktorius"
 msgid "Enable"
 msgstr "Įjungti"
 
-#: ../plugin/plugin.py:181
+#: ../plugin/plugin.py:169
 msgid "Enable Authentication for streaming"
 msgstr "Transliacijoms įjungti autentikavimą"
 
-#: ../plugin/plugin.py:174
+#: ../plugin/plugin.py:162
 msgid "Enable HTTP Authentication"
 msgstr "Įjungti HTTP autentikavimą"
 
-#: ../plugin/plugin.py:175
+#: ../plugin/plugin.py:163
 msgid "Enable HTTPS"
 msgstr "Įjungti HTTPS"
 
-#: ../plugin/plugin.py:178
+#: ../plugin/plugin.py:166
 msgid "Enable HTTPS Authentication"
 msgstr "Įjungti HTTPS autentikavimą"
 
@@ -794,7 +794,7 @@ msgstr "Įjungti HTTPS autentikavimą"
 msgid "Enable Messages"
 msgstr "Įjungti žinutes"
 
-#: ../plugin/plugin.py:186
+#: ../plugin/plugin.py:174
 msgid "Enable Parental Control"
 msgstr "Įjungti tėvų kontrolę"
 
@@ -802,7 +802,7 @@ msgstr "Įjungti tėvų kontrolę"
 msgid "Enable Timer"
 msgstr "Įjungti laikmatį"
 
-#: ../plugin/plugin.py:185
+#: ../plugin/plugin.py:173
 msgid "Enable access from VPNs"
 msgstr "Leisti VPN prieigą"
 
@@ -1024,13 +1024,13 @@ msgstr "Sąsajos procesoriaus versija"
 msgid "Full remote"
 msgstr "Visas nuotolinis"
 
+#: ../plugin/controllers/models/movies.py:279
+#: ../plugin/controllers/models/movies.py:409
+#: ../plugin/controllers/models/movies.py:837
 #: ../plugin/controllers/models/info.py:369
 #: ../plugin/controllers/models/info.py:375
 #: ../plugin/controllers/models/info.py:390
 #: ../plugin/controllers/models/info.py:393
-#: ../plugin/controllers/models/movies.py:279
-#: ../plugin/controllers/models/movies.py:409
-#: ../plugin/controllers/models/movies.py:837
 msgid "GB"
 msgstr "GB"
 
@@ -1068,11 +1068,11 @@ msgstr ""
 msgid "HH:MM"
 msgstr "HH:MM"
 
-#: ../plugin/plugin.py:173
+#: ../plugin/plugin.py:161
 msgid "HTTP port"
 msgstr "HTTP prievadas"
 
-#: ../plugin/plugin.py:177
+#: ../plugin/plugin.py:165
 msgid "HTTPS port"
 msgstr "HTTPS prievadas"
 
@@ -1289,12 +1289,12 @@ msgstr "Užrakinta"
 msgid "MAC address"
 msgstr "MAC adresas"
 
-#: ../plugin/controllers/models/info.py:366
-#: ../plugin/controllers/models/info.py:377
-#: ../plugin/controllers/models/info.py:395
 #: ../plugin/controllers/models/movies.py:281
 #: ../plugin/controllers/models/movies.py:411
 #: ../plugin/controllers/models/movies.py:839
+#: ../plugin/controllers/models/info.py:366
+#: ../plugin/controllers/models/info.py:377
+#: ../plugin/controllers/models/info.py:395
 msgid "MB"
 msgstr "MB"
 
@@ -1691,7 +1691,7 @@ msgstr "Atverti naujame lange"
 msgid "OpenSSL"
 msgstr ""
 
-#: ../plugin/plugin.py:159
+#: ../plugin/plugin.py:147
 msgid "OpenWebInterface Enabled"
 msgstr "OpenWeb sąsaja įjungta"
 
@@ -1699,7 +1699,7 @@ msgstr "OpenWeb sąsaja įjungta"
 msgid "OpenWebif Browser Settings"
 msgstr "OpenWebif naršyklės nuostatos"
 
-#: ../plugin/plugin.py:200 ../plugin/plugin.py:268 ../plugin/plugin.py:270
+#: ../plugin/plugin.py:188 ../plugin/plugin.py:256 ../plugin/plugin.py:258
 msgid "OpenWebif Configuration"
 msgstr "OpenWebif konfigūravimas"
 
@@ -1707,7 +1707,7 @@ msgstr "OpenWebif konfigūravimas"
 msgid "OpenWebif Settings"
 msgstr "OpenWebif nuostatos"
 
-#: ../plugin/plugin.py:145
+#: ../plugin/plugin.py:133
 msgid "OpenWebif url:"
 msgstr "OpenWebif nuoroda: http://imtuvo_IP:prievadas"
 
@@ -1769,7 +1769,7 @@ msgstr "Grojaraščio formatas"
 msgid "Playback"
 msgstr "Atkūrimas"
 
-#: ../plugin/plugin.py:190
+#: ../plugin/plugin.py:178
 msgid "Playback IPTV Streams in browser"
 msgstr "Atkurti IPTV transliaciją naršyklėje"
 
@@ -1902,7 +1902,7 @@ msgstr "Pervadinti įrašą"
 msgid "Repeated"
 msgstr "Pakartotinas"
 
-#: ../plugin/plugin.py:179
+#: ../plugin/plugin.py:167
 msgid "Require client cert for HTTPS"
 msgstr "Reikalauti HTTPS kliento sertifikato"
 
@@ -1992,7 +1992,7 @@ msgid "Saturday"
 msgstr "šeštadienis"
 
 #: ../plugin/controllers/i18n.py:256 ../plugin/controllers/i18n.py:426
-#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:133
+#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:121
 msgid "Save"
 msgstr "Išsaugoti"
 
@@ -2141,7 +2141,7 @@ msgstr "Nustatyti didžiausią trukmę"
 msgid "Settings"
 msgstr "Visos nuostatos"
 
-#: ../plugin/plugin.py:161
+#: ../plugin/plugin.py:149
 msgid "Show CPU benchmark in STB information"
 msgstr ""
 
@@ -2157,11 +2157,11 @@ msgstr "Rodyti visą OpenWebif"
 msgid "Show IPTV channels in selection (eg. Autotimer)"
 msgstr "Renkantis, rodyti IPTV kanalus (pvz. Autolaikmatis)"
 
-#: ../plugin/plugin.py:163
+#: ../plugin/plugin.py:151
 msgid "Show Python benchmark in STB information"
 msgstr ""
 
-#: ../plugin/plugin.py:162
+#: ../plugin/plugin.py:150
 msgid "Show RAM benchmark in STB information"
 msgstr ""
 
@@ -2174,7 +2174,7 @@ msgstr "Antraštėje rodyti aparato pavadinimą"
 msgid "Show all packages"
 msgstr "Rodyti visus paketus"
 
-#: ../plugin/plugin.py:168
+#: ../plugin/plugin.py:156
 msgid "Show box name in header"
 msgstr "Antraštėje rodyti aparato pavadinimą"
 
@@ -2334,7 +2334,7 @@ msgstr "Srautas"
 msgid "Stream Clients"
 msgstr "Transliacijų klientai"
 
-#: ../plugin/plugin.py:187
+#: ../plugin/plugin.py:175
 msgid "Streaming port"
 msgstr "Transliacijos prievadas"
 
@@ -2450,7 +2450,7 @@ msgstr "Laikmatis '%s' dabar įrašomas! Neišjungtas!"
 msgid "Theme"
 msgstr "Aplinkos tema"
 
-#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:166
+#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:154
 msgid "Theme mode"
 msgstr "Temos režimas"
 
@@ -2665,7 +2665,7 @@ msgstr "Naudoti, kaip PiP, jei įmanoma"
 msgid "Use classic interface"
 msgstr "Naudoti klasikinę sąsają"
 
-#: ../plugin/plugin.py:167
+#: ../plugin/plugin.py:155
 msgid "Use custom Color"
 msgstr "Naudoti pasirinktinę spalvą"
 
@@ -2674,7 +2674,7 @@ msgstr "Naudoti pasirinktinę spalvą"
 msgid "Use custom STB name"
 msgstr "Naudoti savą aparato pavadinimą"
 
-#: ../plugin/plugin.py:170
+#: ../plugin/plugin.py:158
 msgid "Use custom box name"
 msgstr "Naudoti savą aparato pavadinimą"
 
@@ -2682,7 +2682,7 @@ msgstr "Naudoti savą aparato pavadinimą"
 msgid "Use modern design"
 msgstr "Naudoti naują išvaizdą"
 
-#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:164
+#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:152
 msgid "Use modern interface"
 msgstr "Naudoti naują išvaizdą"
 
@@ -2779,7 +2779,7 @@ msgstr "Kas savaitę (sekmadienis)"
 msgid "Widescreen"
 msgstr "Plačiaekranis"
 
-#: ../plugin/plugin.py:184
+#: ../plugin/plugin.py:172
 msgid "Without auth only local access is allowed!"
 msgstr "Be autentikavimo leidžiamas tik vietinis prisijungimas!"
 
@@ -2842,7 +2842,7 @@ msgstr "bet kada"
 msgid "auto"
 msgstr "auto"
 
-#: ../plugin/plugin.py:139
+#: ../plugin/plugin.py:127
 msgid "box_ip"
 msgstr "aparato IP"
 
@@ -2906,11 +2906,11 @@ msgstr "į budėjimo režimą"
 msgid "hour"
 msgstr "valanda"
 
-#: ../plugin/controllers/models/info.py:244
-#: ../plugin/controllers/models/info.py:247
 #: ../plugin/controllers/models/movies.py:283
 #: ../plugin/controllers/models/movies.py:413
 #: ../plugin/controllers/models/movies.py:841
+#: ../plugin/controllers/models/info.py:244
+#: ../plugin/controllers/models/info.py:247
 msgid "kB"
 msgstr "kB"
 

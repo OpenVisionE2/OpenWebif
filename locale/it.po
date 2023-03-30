@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenWebif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 21:32+0330\n"
+"POT-Creation-Date: 2023-03-30 20:58+0330\n"
 "PO-Revision-Date: 2022-11-07 08:06+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/e2openplugin-openwebif/e2openplugin-openwebif/it/>\n"
@@ -158,7 +158,7 @@ msgstr "Aggiungi i filtri"
 msgid "Add selection to bouquet"
 msgstr "Aggiungi selezione al bouquet"
 
-#: ../plugin/plugin.py:188
+#: ../plugin/plugin.py:176
 msgid "Add service name to stream information"
 msgstr "Aggiungi il nome del servizio alle informazioni sullo streaming"
 
@@ -200,7 +200,7 @@ msgstr "Tutti i file di questo software sono opere open source: è possibile rid
 msgid "All alternative services deleted."
 msgstr "Tutti i servizi alternativi sono stati cancellati."
 
-#: ../plugin/plugin.py:189
+#: ../plugin/plugin.py:177
 msgid "Allow IPK Upload"
 msgstr "Consenti caricamento IPK"
 
@@ -486,7 +486,7 @@ msgstr "Cavo"
 msgid "Calendar Week"
 msgstr "Calendario settimanale"
 
-#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:132
+#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:120
 msgid "Cancel"
 msgstr "Annullare"
 
@@ -578,7 +578,7 @@ msgstr "Attualmente in registrazione"
 msgid "Custom STB name"
 msgstr "Personalizza il nome del ricevitore"
 
-#: ../plugin/plugin.py:172
+#: ../plugin/plugin.py:160
 msgid "Custom box name"
 msgstr "Personalizza il nome del ricevitore"
 
@@ -611,7 +611,7 @@ msgstr "Data (più recente)"
 msgid "Date (oldest)"
 msgstr "Data (più vecchia)"
 
-#: ../plugin/plugin.py:191
+#: ../plugin/plugin.py:179
 msgid "Debug - Display Tracebacks in browser"
 msgstr "Debug - Visualizza i traceback nel browser"
 
@@ -679,7 +679,7 @@ msgstr "Disabilitare"
 msgid "Disable Timer"
 msgstr "Disattiva timer"
 
-#: ../plugin/plugin.py:182
+#: ../plugin/plugin.py:170
 msgid "Disable remote access for user root"
 msgstr "Disabilita l'accesso remoto per l'utente root"
 
@@ -779,19 +779,19 @@ msgstr "Editor"
 msgid "Enable"
 msgstr "Abilita"
 
-#: ../plugin/plugin.py:181
+#: ../plugin/plugin.py:169
 msgid "Enable Authentication for streaming"
 msgstr "Abilita l'autenticazione per lo streaming"
 
-#: ../plugin/plugin.py:174
+#: ../plugin/plugin.py:162
 msgid "Enable HTTP Authentication"
 msgstr "Abilita autenticazione HTTP"
 
-#: ../plugin/plugin.py:175
+#: ../plugin/plugin.py:163
 msgid "Enable HTTPS"
 msgstr "Abilita HTTPS"
 
-#: ../plugin/plugin.py:178
+#: ../plugin/plugin.py:166
 msgid "Enable HTTPS Authentication"
 msgstr "Abilita l'autenticazione HTTPS"
 
@@ -799,7 +799,7 @@ msgstr "Abilita l'autenticazione HTTPS"
 msgid "Enable Messages"
 msgstr "Abilita messaggi"
 
-#: ../plugin/plugin.py:186
+#: ../plugin/plugin.py:174
 msgid "Enable Parental Control"
 msgstr "Abilita il controllo genitori"
 
@@ -807,7 +807,7 @@ msgstr "Abilita il controllo genitori"
 msgid "Enable Timer"
 msgstr "Abilita timer"
 
-#: ../plugin/plugin.py:185
+#: ../plugin/plugin.py:173
 msgid "Enable access from VPNs"
 msgstr "Abilita l'accesso dalle VPN"
 
@@ -1029,13 +1029,13 @@ msgstr "Versione Frontprocessor"
 msgid "Full remote"
 msgstr "Telecomando completo"
 
+#: ../plugin/controllers/models/movies.py:279
+#: ../plugin/controllers/models/movies.py:409
+#: ../plugin/controllers/models/movies.py:837
 #: ../plugin/controllers/models/info.py:369
 #: ../plugin/controllers/models/info.py:375
 #: ../plugin/controllers/models/info.py:390
 #: ../plugin/controllers/models/info.py:393
-#: ../plugin/controllers/models/movies.py:279
-#: ../plugin/controllers/models/movies.py:409
-#: ../plugin/controllers/models/movies.py:837
 msgid "GB"
 msgstr "GB"
 
@@ -1073,11 +1073,11 @@ msgstr ""
 msgid "HH:MM"
 msgstr "HH:MM"
 
-#: ../plugin/plugin.py:173
+#: ../plugin/plugin.py:161
 msgid "HTTP port"
 msgstr "Porta HTTP"
 
-#: ../plugin/plugin.py:177
+#: ../plugin/plugin.py:165
 msgid "HTTPS port"
 msgstr "Porta HTTPS"
 
@@ -1294,12 +1294,12 @@ msgstr "Bloccato"
 msgid "MAC address"
 msgstr "Indirizzo MAC"
 
-#: ../plugin/controllers/models/info.py:366
-#: ../plugin/controllers/models/info.py:377
-#: ../plugin/controllers/models/info.py:395
 #: ../plugin/controllers/models/movies.py:281
 #: ../plugin/controllers/models/movies.py:411
 #: ../plugin/controllers/models/movies.py:839
+#: ../plugin/controllers/models/info.py:366
+#: ../plugin/controllers/models/info.py:377
+#: ../plugin/controllers/models/info.py:395
 msgid "MB"
 msgstr "MB"
 
@@ -1696,7 +1696,7 @@ msgstr "Apri in una nuova finestra"
 msgid "OpenSSL"
 msgstr ""
 
-#: ../plugin/plugin.py:159
+#: ../plugin/plugin.py:147
 msgid "OpenWebInterface Enabled"
 msgstr "OpenWebInterface abilitata"
 
@@ -1704,7 +1704,7 @@ msgstr "OpenWebInterface abilitata"
 msgid "OpenWebif Browser Settings"
 msgstr "Impostazioni browser OpenWebif"
 
-#: ../plugin/plugin.py:200 ../plugin/plugin.py:268 ../plugin/plugin.py:270
+#: ../plugin/plugin.py:188 ../plugin/plugin.py:256 ../plugin/plugin.py:258
 msgid "OpenWebif Configuration"
 msgstr "Configurazione di OpenWebif"
 
@@ -1712,7 +1712,7 @@ msgstr "Configurazione di OpenWebif"
 msgid "OpenWebif Settings"
 msgstr "Impostazioni interfaccia web"
 
-#: ../plugin/plugin.py:145
+#: ../plugin/plugin.py:133
 msgid "OpenWebif url:"
 msgstr "Indirizzo OpenWebif:"
 
@@ -1774,7 +1774,7 @@ msgstr "playlist"
 msgid "Playback"
 msgstr "Riproduzione"
 
-#: ../plugin/plugin.py:190
+#: ../plugin/plugin.py:178
 msgid "Playback IPTV Streams in browser"
 msgstr "Riproduzione di flussi IPTV nel browser"
 
@@ -1907,7 +1907,7 @@ msgstr "Rinomina registrazione"
 msgid "Repeated"
 msgstr "Ripetuto"
 
-#: ../plugin/plugin.py:179
+#: ../plugin/plugin.py:167
 msgid "Require client cert for HTTPS"
 msgstr "Richiedi certificato client per HTTPS"
 
@@ -1997,7 +1997,7 @@ msgid "Saturday"
 msgstr "Sabato"
 
 #: ../plugin/controllers/i18n.py:256 ../plugin/controllers/i18n.py:426
-#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:133
+#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:121
 msgid "Save"
 msgstr "Salva"
 
@@ -2146,7 +2146,7 @@ msgstr "Imposta la durata massima"
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: ../plugin/plugin.py:161
+#: ../plugin/plugin.py:149
 msgid "Show CPU benchmark in STB information"
 msgstr ""
 
@@ -2162,11 +2162,11 @@ msgstr "Mostra OpenWebif completo"
 msgid "Show IPTV channels in selection (eg. Autotimer)"
 msgstr "Mostra canali IPTV nella selezione"
 
-#: ../plugin/plugin.py:163
+#: ../plugin/plugin.py:151
 msgid "Show Python benchmark in STB information"
 msgstr ""
 
-#: ../plugin/plugin.py:162
+#: ../plugin/plugin.py:150
 msgid "Show RAM benchmark in STB information"
 msgstr ""
 
@@ -2179,7 +2179,7 @@ msgstr "Mostra il nome della casella nell'intestazione"
 msgid "Show all packages"
 msgstr "Mostra tutti i pacchetti"
 
-#: ../plugin/plugin.py:168
+#: ../plugin/plugin.py:156
 msgid "Show box name in header"
 msgstr "Mostra il nome della casella nell'intestazione"
 
@@ -2339,7 +2339,7 @@ msgstr "Stream"
 msgid "Stream Clients"
 msgstr "Client dello stream"
 
-#: ../plugin/plugin.py:187
+#: ../plugin/plugin.py:175
 msgid "Streaming port"
 msgstr "Porta di streaming"
 
@@ -2455,7 +2455,7 @@ msgstr "Il timer '%s' è ora registrato! Non disabilitato!"
 msgid "Theme"
 msgstr "Tema"
 
-#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:166
+#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:154
 msgid "Theme mode"
 msgstr "Modalità tema"
 
@@ -2670,7 +2670,7 @@ msgstr "Usa come PiP se possibile"
 msgid "Use classic interface"
 msgstr "Usa interfaccia classica"
 
-#: ../plugin/plugin.py:167
+#: ../plugin/plugin.py:155
 msgid "Use custom Color"
 msgstr "Usa colore personalizzato"
 
@@ -2679,7 +2679,7 @@ msgstr "Usa colore personalizzato"
 msgid "Use custom STB name"
 msgstr "Usa nome personalizzato per il ricevitore"
 
-#: ../plugin/plugin.py:170
+#: ../plugin/plugin.py:158
 msgid "Use custom box name"
 msgstr "Usa nome personalizzato per il ricevitore"
 
@@ -2687,7 +2687,7 @@ msgstr "Usa nome personalizzato per il ricevitore"
 msgid "Use modern design"
 msgstr "Usa design moderno"
 
-#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:164
+#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:152
 msgid "Use modern interface"
 msgstr "Usa interfaccia moderna"
 
@@ -2784,7 +2784,7 @@ msgstr "Settimanale (domenica)"
 msgid "Widescreen"
 msgstr "A tutto schermo"
 
-#: ../plugin/plugin.py:184
+#: ../plugin/plugin.py:172
 msgid "Without auth only local access is allowed!"
 msgstr "Senza autorizzazione è consentito solo l'accesso locale!"
 
@@ -2847,7 +2847,7 @@ msgstr "ogni volta"
 msgid "auto"
 msgstr "automatico"
 
-#: ../plugin/plugin.py:139
+#: ../plugin/plugin.py:127
 msgid "box_ip"
 msgstr "box_ip"
 
@@ -2911,11 +2911,11 @@ msgstr "vai a standby"
 msgid "hour"
 msgstr "ora"
 
-#: ../plugin/controllers/models/info.py:244
-#: ../plugin/controllers/models/info.py:247
 #: ../plugin/controllers/models/movies.py:283
 #: ../plugin/controllers/models/movies.py:413
 #: ../plugin/controllers/models/movies.py:841
+#: ../plugin/controllers/models/info.py:244
+#: ../plugin/controllers/models/info.py:247
 msgid "kB"
 msgstr "kB"
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenWebif\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-14 21:32+0330\n"
+"POT-Creation-Date: 2023-03-30 20:58+0330\n"
 "PO-Revision-Date: 2021-12-02 19:56+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/e2openplugin-openwebif/e2openplugin-openwebif/ca/>\n"
@@ -157,7 +157,7 @@ msgstr "Afegir Gravació"
 msgid "Add selection to bouquet"
 msgstr "Afegir canal(s) a llista"
 
-#: ../plugin/plugin.py:188
+#: ../plugin/plugin.py:176
 msgid "Add service name to stream information"
 msgstr "Afegir nom de servei a la informació de stream"
 
@@ -199,7 +199,7 @@ msgstr "Tots els arxius d'aquest software són software de codi obert;  pots red
 msgid "All alternative services deleted."
 msgstr "Tots els serveis alternatius esborrats."
 
-#: ../plugin/plugin.py:189
+#: ../plugin/plugin.py:177
 msgid "Allow IPK Upload"
 msgstr ""
 
@@ -488,7 +488,7 @@ msgstr "Cable"
 msgid "Calendar Week"
 msgstr "Calendari setmanal"
 
-#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:132
+#: ../plugin/controllers/i18n.py:100 ../plugin/plugin.py:120
 msgid "Cancel"
 msgstr "Cancel·lar"
 
@@ -582,7 +582,7 @@ msgstr ""
 msgid "Custom STB name"
 msgstr "Nom personalitzat del deco"
 
-#: ../plugin/plugin.py:172
+#: ../plugin/plugin.py:160
 msgid "Custom box name"
 msgstr "Nom personalitzat del deco"
 
@@ -615,7 +615,7 @@ msgstr ""
 msgid "Date (oldest)"
 msgstr ""
 
-#: ../plugin/plugin.py:191
+#: ../plugin/plugin.py:179
 msgid "Debug - Display Tracebacks in browser"
 msgstr ""
 
@@ -684,7 +684,7 @@ msgstr "deshabilitat"
 msgid "Disable Timer"
 msgstr "Deshabilitar Gravació"
 
-#: ../plugin/plugin.py:182
+#: ../plugin/plugin.py:170
 msgid "Disable remote access for user root"
 msgstr "Deshabilitar accès remot per a l'usuari root"
 
@@ -787,19 +787,19 @@ msgstr "Editor"
 msgid "Enable"
 msgstr "Habilitar"
 
-#: ../plugin/plugin.py:181
+#: ../plugin/plugin.py:169
 msgid "Enable Authentication for streaming"
 msgstr "Habilitar autenticació per a streaming"
 
-#: ../plugin/plugin.py:174
+#: ../plugin/plugin.py:162
 msgid "Enable HTTP Authentication"
 msgstr "Autenticació enllaç HTTP"
 
-#: ../plugin/plugin.py:175
+#: ../plugin/plugin.py:163
 msgid "Enable HTTPS"
 msgstr "Habilitar HTTPS"
 
-#: ../plugin/plugin.py:178
+#: ../plugin/plugin.py:166
 msgid "Enable HTTPS Authentication"
 msgstr "Autenticació enllaç HTTPS"
 
@@ -807,7 +807,7 @@ msgstr "Autenticació enllaç HTTPS"
 msgid "Enable Messages"
 msgstr "Habilitar missatges"
 
-#: ../plugin/plugin.py:186
+#: ../plugin/plugin.py:174
 msgid "Enable Parental Control"
 msgstr "Habilitar Control Parental"
 
@@ -815,7 +815,7 @@ msgstr "Habilitar Control Parental"
 msgid "Enable Timer"
 msgstr "Habilitar Gravació"
 
-#: ../plugin/plugin.py:185
+#: ../plugin/plugin.py:173
 msgid "Enable access from VPNs"
 msgstr "Habilitar accès des de VPNs"
 
@@ -1041,13 +1041,13 @@ msgstr "Versió Frontprocessor"
 msgid "Full remote"
 msgstr "Ocultar comandament completo"
 
+#: ../plugin/controllers/models/movies.py:279
+#: ../plugin/controllers/models/movies.py:409
+#: ../plugin/controllers/models/movies.py:837
 #: ../plugin/controllers/models/info.py:369
 #: ../plugin/controllers/models/info.py:375
 #: ../plugin/controllers/models/info.py:390
 #: ../plugin/controllers/models/info.py:393
-#: ../plugin/controllers/models/movies.py:279
-#: ../plugin/controllers/models/movies.py:409
-#: ../plugin/controllers/models/movies.py:837
 msgid "GB"
 msgstr ""
 
@@ -1085,11 +1085,11 @@ msgstr ""
 msgid "HH:MM"
 msgstr ""
 
-#: ../plugin/plugin.py:173
+#: ../plugin/plugin.py:161
 msgid "HTTP port"
 msgstr "Port HTTP"
 
-#: ../plugin/plugin.py:177
+#: ../plugin/plugin.py:165
 msgid "HTTPS port"
 msgstr "Port HTTPS"
 
@@ -1308,12 +1308,12 @@ msgstr "Bloquejat"
 msgid "MAC address"
 msgstr "Direcció MAC"
 
-#: ../plugin/controllers/models/info.py:366
-#: ../plugin/controllers/models/info.py:377
-#: ../plugin/controllers/models/info.py:395
 #: ../plugin/controllers/models/movies.py:281
 #: ../plugin/controllers/models/movies.py:411
 #: ../plugin/controllers/models/movies.py:839
+#: ../plugin/controllers/models/info.py:366
+#: ../plugin/controllers/models/info.py:377
+#: ../plugin/controllers/models/info.py:395
 msgid "MB"
 msgstr ""
 
@@ -1716,7 +1716,7 @@ msgstr "Obrir en nova finestra"
 msgid "OpenSSL"
 msgstr ""
 
-#: ../plugin/plugin.py:159
+#: ../plugin/plugin.py:147
 msgid "OpenWebInterface Enabled"
 msgstr "Enllaç OpenWebInterface"
 
@@ -1724,7 +1724,7 @@ msgstr "Enllaç OpenWebInterface"
 msgid "OpenWebif Browser Settings"
 msgstr "Configuració navegador OpenWebif"
 
-#: ../plugin/plugin.py:200 ../plugin/plugin.py:268 ../plugin/plugin.py:270
+#: ../plugin/plugin.py:188 ../plugin/plugin.py:256 ../plugin/plugin.py:258
 msgid "OpenWebif Configuration"
 msgstr "Configuració OpenWebif"
 
@@ -1732,7 +1732,7 @@ msgstr "Configuració OpenWebif"
 msgid "OpenWebif Settings"
 msgstr "Configuració OpenWebif"
 
-#: ../plugin/plugin.py:145
+#: ../plugin/plugin.py:133
 #, fuzzy
 msgid "OpenWebif url:"
 msgstr "Enllaç OpenWebif:"
@@ -1795,7 +1795,7 @@ msgstr "Llista de reproducció"
 msgid "Playback"
 msgstr "Reproducció"
 
-#: ../plugin/plugin.py:190
+#: ../plugin/plugin.py:178
 msgid "Playback IPTV Streams in browser"
 msgstr ""
 
@@ -1931,7 +1931,7 @@ msgstr "Renombrar Gravació"
 msgid "Repeated"
 msgstr "Repetir"
 
-#: ../plugin/plugin.py:179
+#: ../plugin/plugin.py:167
 msgid "Require client cert for HTTPS"
 msgstr "Requereix certificat client per a HTTPS"
 
@@ -2022,7 +2022,7 @@ msgid "Saturday"
 msgstr "Dissabte"
 
 #: ../plugin/controllers/i18n.py:256 ../plugin/controllers/i18n.py:426
-#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:133
+#: ../plugin/controllers/i18n.py:488 ../plugin/plugin.py:121
 msgid "Save"
 msgstr "Guardar"
 
@@ -2175,7 +2175,7 @@ msgstr "Configurar duració màxima"
 msgid "Settings"
 msgstr "Configuració"
 
-#: ../plugin/plugin.py:161
+#: ../plugin/plugin.py:149
 msgid "Show CPU benchmark in STB information"
 msgstr ""
 
@@ -2191,11 +2191,11 @@ msgstr "Veure OpenWebif Complert"
 msgid "Show IPTV channels in selection (eg. Autotimer)"
 msgstr ""
 
-#: ../plugin/plugin.py:163
+#: ../plugin/plugin.py:151
 msgid "Show Python benchmark in STB information"
 msgstr ""
 
-#: ../plugin/plugin.py:162
+#: ../plugin/plugin.py:150
 msgid "Show RAM benchmark in STB information"
 msgstr ""
 
@@ -2208,7 +2208,7 @@ msgstr "Mostrar nom del deco a la capçalera"
 msgid "Show all packages"
 msgstr ""
 
-#: ../plugin/plugin.py:168
+#: ../plugin/plugin.py:156
 msgid "Show box name in header"
 msgstr "Mostrar nom del deco a la capçalera"
 
@@ -2370,7 +2370,7 @@ msgstr "Stream"
 msgid "Stream Clients"
 msgstr "Stream"
 
-#: ../plugin/plugin.py:187
+#: ../plugin/plugin.py:175
 #, fuzzy
 msgid "Streaming port"
 msgstr "Stream"
@@ -2487,7 +2487,7 @@ msgstr "Temporitzador '%s' s'ha gravat! No està deshabilitat!"
 msgid "Theme"
 msgstr "Tema"
 
-#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:166
+#: ../plugin/controllers/i18n.py:318 ../plugin/plugin.py:154
 #, fuzzy
 msgid "Theme mode"
 msgstr "Tema"
@@ -2705,7 +2705,7 @@ msgstr ""
 msgid "Use classic interface"
 msgstr "Utilitzar nou diseny"
 
-#: ../plugin/plugin.py:167
+#: ../plugin/plugin.py:155
 #, fuzzy
 msgid "Use custom Color"
 msgstr "Utilitzar una ubicació personalitzada"
@@ -2715,7 +2715,7 @@ msgstr "Utilitzar una ubicació personalitzada"
 msgid "Use custom STB name"
 msgstr "Utilitzar nom personalitzat per al deco"
 
-#: ../plugin/plugin.py:170
+#: ../plugin/plugin.py:158
 msgid "Use custom box name"
 msgstr "Utilitzar nom personalitzat per al deco"
 
@@ -2724,7 +2724,7 @@ msgstr "Utilitzar nom personalitzat per al deco"
 msgid "Use modern design"
 msgstr "Utilitzar nou diseny"
 
-#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:164
+#: ../plugin/controllers/i18n.py:622 ../plugin/plugin.py:152
 msgid "Use modern interface"
 msgstr "Utilitzar nou diseny"
 
@@ -2822,7 +2822,7 @@ msgstr "Setmanal (Diumenge)"
 msgid "Widescreen"
 msgstr ""
 
-#: ../plugin/plugin.py:184
+#: ../plugin/plugin.py:172
 msgid "Without auth only local access is allowed!"
 msgstr "Sense autorització, només es permet l'accès local!"
 
@@ -2886,7 +2886,7 @@ msgstr "Afegir Gravació"
 msgid "auto"
 msgstr "automàtic"
 
-#: ../plugin/plugin.py:139
+#: ../plugin/plugin.py:127
 msgid "box_ip"
 msgstr ""
 
@@ -2953,11 +2953,11 @@ msgstr "anar a repòs"
 msgid "hour"
 msgstr ""
 
-#: ../plugin/controllers/models/info.py:244
-#: ../plugin/controllers/models/info.py:247
 #: ../plugin/controllers/models/movies.py:283
 #: ../plugin/controllers/models/movies.py:413
 #: ../plugin/controllers/models/movies.py:841
+#: ../plugin/controllers/models/info.py:244
+#: ../plugin/controllers/models/info.py:247
 msgid "kB"
 msgstr ""
 
