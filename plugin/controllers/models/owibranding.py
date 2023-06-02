@@ -38,7 +38,7 @@ def getAllInfo():
 	info['grabpip'] = grabpip or 0
 
 	lcd = 0
-	if ("lcd" in model) or ("lcd" in BoxInfo.getItem("displaytype")):
+	if BoxInfo.getItem("LCDSupport"):
 		lcd = 1
 
 	info['lcd'] = lcd or 0
